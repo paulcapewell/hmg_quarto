@@ -1,5 +1,5 @@
 ---
-title: "Human Molecular Genetics: Sequencing Data Interpretation"
+title: "Introduction"
 subtitle: "Module 2 computer laboratory"
 execute:
   echo: true

@@ -8,22 +8,22 @@ Let’s zoom in and have a look at a region in the *MYO6* gene of the trio in de
 (We will be examining variants in the top reference strand, so it is best to turn off the ‘reverse’ option for this region unless looking at whether a variant is synonymous)
 :::
 
-![](images/slide-33-image-1.png){fig-alt="Screenshot from slide 33 of the original IGV tutorial."}
+![](images/slide-33-image-1.png){fig-alt="Selecting a position by region coordinates in IGV"}
 
 The mountain plot at the top of the display shows the read depth across the region (the scale here goes from 0 to 52x). Individual 100 bp reads are shown as grey rectangles - the arrow on the end indicating the direction of the read (you can use the scroll bar here to see more of the reads).
 
 - Where a base in a read is the same as the reference, it is coloured grey
 - Where a base in a read is different to the reference, it is coloured by base.
 
-![](images/slide-34-image-2.png){fig-alt="Screenshot from slide 34 of the original IGV tutorial."}
+![](images/slide-34-image-2.png){fig-alt="A zoomed in view showing that bases in the pileup that are the same as the reference are grey in IGV, whereas differences are coloured by base"}
 
 Zooming in even closer we can see the actual sequences and identify any differences between the reads and the reference.
 
-![](images/slide-35-image-1.png){fig-alt="Screenshot from slide 35 of the original IGV tutorial." width="50%"}
+![](images/slide-35-image-1.png){fig-alt="A zoomed in view highlighting sites in the pileup that are different to the reference" width="50%"}
 
 To gauge whether any sequence differences might represent germline variants, we can examine the bases observed at each position by clicking on a base in the mountain plot at the top of each read track.
 
-![](images/slide-36-image-1.png){fig-alt="Screenshot from slide 36 of the original IGV tutorial." width="30%"}
+![](images/slide-36-image-1.png){fig-alt="A view of the pileup statistics at a position revealed by clicking the mountain plot in IGV" width="30%"}
 
 ::: {.callout-tip title="Test your understanding"}
 - What do you think is the germline genotype for NA12877 (the son) at position ch6:76,525,300?
@@ -32,7 +32,7 @@ To gauge whether any sequence differences might represent germline variants, we 
 
 Moving along slightly to  position 76,525,311:
 
-![](images/slide-37-image-1.png){fig-alt="Screenshot from slide 37 of the original IGV tutorial."}
+![](images/slide-37-image-1.png){fig-alt="A view of the pileup statistics at a different position revealed by clicking the mountain plot in IGV"}
 
 ::: {.callout-tip title="Test your understanding"}
 - What is the reference sequence at position chr6:76,525,311?
@@ -42,7 +42,7 @@ Moving along slightly to  position 76,525,311:
 
 Examine the reads for the other members of the trio.
 
-![](images/slide-38-image-1.png){fig-alt="Screenshot from slide 38 of the original IGV tutorial."}
+![](images/slide-38-image-1.png){fig-alt="A zoomed out view showing how the mountain plots are coloured differently at homozygous regions compared to heterozygous regions in IGV"}
 
 ::: {.callout-tip title="Test your understanding"}
 - What are the genotypes at position chr6:76,525,311 for NA12889 and NA12890?
@@ -51,7 +51,7 @@ Examine the reads for the other members of the trio.
 
 By clicking on the feature in the Common SNPs track we can see that this is a known SNP and gain additional information:
 
-![](images/slide-39-image-1.png){fig-alt="Screenshot from slide 39 of the original IGV tutorial."}
+![](images/slide-39-image-1.png){fig-alt="A zoomed in view showing the SNP stats revealed by clicking the position in the common snps track in IGV"}
 
 ::: {.callout-tip title="Test your understanding"}
 - What is the identifier (name) of the SNP at this position?

@@ -1,4 +1,4 @@
-# 11: Zellweger syndrome case study
+# Case Study: Zellweger syndrome
 
 A family is referred to clinical genetics with a severely ill new-born child who has received a clinical diagnosis of probable Zellweger syndrome. This is an autosomal recessive systemic disorder characterised clinically by severe neurologic dysfunction, craniofacial abnormalities, and liver dysfunction, and biochemically by the absence of peroxisomes. Zellweger syndrome is characterised by locus heterogeneity and can be caused by mutations in any one of several genes, encoding proteins known as pexins, which are involved in peroxisome biogenesis. In order to try and provide a genetic diagnosis, whole exome sequencing was performed in the family and variants in a known Zellweger gene, *PEX3*, detected:
 

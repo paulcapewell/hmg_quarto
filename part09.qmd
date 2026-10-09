@@ -2,15 +2,15 @@
 
 Next, we'll look at the *APOE* gene. You can quickly locate it using the search box.
 
-![](images/slide-51-image-1.png){fig-alt="Screenshot from slide 51 of the original IGV tutorial."}
+![](images/slide-51-image-1.png){fig-alt="A zoomed out view showing the APOE1 region in IGV"}
 
 Focus on the two common SNPs found in exon 4.
 
-![](images/slide-52-image-1.png){fig-alt="Screenshot from slide 52 of the original IGV tutorial."}
+![](images/slide-52-image-1.png){fig-alt="A view showing to close SNPs in the APOE1 gene in IGV"}
 
 Start with the variant at position chr19:45,411,941 (rs429358).
 
-![](images/slide-53-image-1.png){fig-alt="Screenshot from slide 53 of the original IGV tutorial."}
+![](images/slide-53-image-1.png){fig-alt="A zoomed in view showing the coloured positions in the different Platinum genomes for the rs429358 SNP in IGV"}
 
 ::: {.callout-tip title="Test your understanding"}
 - What is the nature of the polymorphism at the DNA level?
@@ -26,7 +26,7 @@ We can use the **variant effect predictor (VEP)** tool to gain some insight into
 ::: callout-tip
 We will be using hg19/GRCh37 coordinates, so make sure you are have the right genome version selected.
 
-![](images/slide-53b-image-1.png){fig-alt="Screenshot from slide 53 of the original IGV tutorial."}
+![](images/slide-53b-image-1.png){fig-alt="A screenshot demonstrating how to change genome in Ensembl VEP"}
 
 :::
 
@@ -44,9 +44,9 @@ A VEP search string has to be in a set format:
 
 Press “Add” when you’ve entered the details of the variant. Set the **submission name** to something you will remember.
 
-![](images/slide-54-image-1.png){fig-alt="Screenshot from slide 53 of the original IGV tutorial."}
+![](images/slide-54-image-1.png){fig-alt="A screenshot demonstrating how to format a search string in Ensembl VEP"}
 
-We can also add some additional analyses to the job by scrolling down to **Job Options**. For now Enable **CADD** and **REVEL** under **Variant impact predictions**. These will help us predict any effect that the variants might have.
+We can also add some additional analyses to the job by scrolling down to **Job Options**. For now Enable **REVEL** and **CADD** under **Variant impact predictions**. These will help us predict any effect that the variants might have.
 
 ::: callout-tip
 **REVEL (Rare Exome Variant Ensemble Learner)** is a computational tool that predicts whether a missense variant is likely to be disease-causing by combining the results of multiple variant effect prediction algorithms into a single score between 0 and 1. Higher REVEL scores indicate a greater likelihood that the variant is pathogenic, while lower scores suggest it is more likely to be benign. Although there are no set thresholds, a general rule of thumb is:
@@ -69,11 +69,11 @@ Although there are no set thresholds for CADD, a general rule of thumb is:
 
 :::
 
-![Screenshot from the original tutorial (slide 56).](images/slide-56-image-1.png){fig-alt="Screenshot from slide 56 of the original IGV tutorial."}
+![Screenshot from the original tutorial (slide 56).](images/slide-56-image-1.png){fig-alt="A screenshot demonstrating how to add REVEL and CADD information to a search in Ensembl VEP"}
 
 Press “Run” when you’re ready. Your job will take a few minutes. Press **Pesults** when it has finished.
 
-![](images/slide-57-image-1.png){fig-alt="Screenshot from slide 57 of the original IGV tutorial."}
+![](images/slide-57-image-1.png){fig-alt="A screenshot demonstrating how to get to the results of a search in Ensembl VE"}
 
 
 ::: {.callout-tip title="Test your understanding"}
@@ -85,7 +85,7 @@ Press “Run” when you’re ready. Your job will take a few minutes. Press **P
 
 There is another SNP a bit further downstream (rs7412). 
 
-![](images/slide-58-image-1.png){fig-alt="Screenshot from slide 58 of the original IGV tutorial."}
+![](images/slide-58-image-1.png){fig-alt="A zoomed in view showing the coloured positions in the different Platinum genomes for the rs7412 SNP in IGV"}
 
 ::: {.callout-tip title="Test your understanding"}
 - What is the nature of the polymorphism at the DNA level?

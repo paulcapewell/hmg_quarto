@@ -1,4 +1,4 @@
-# 10: Alzheimer’s disease and *APOE* haplotypes
+# Case Study: Alzheimer’s disease
 
 A combination of genetic, environmental, and lifestyle factors contribute to late onset Alzheimer’s disease (late-onset AD, LOAD), with genetic factors contributing approximately 60%. Variation at the *APOE* gene locus plays a contributory genetic role. *APOE* encodes a very low-density lipoprotein that helps remove cholesterol from the bloodstream. The exact functional role of the protein encoded by *APOE* in LOAD remains unclear
 

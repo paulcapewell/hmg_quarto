@@ -1,6 +1,6 @@
 # 1: Set up IGV and annotation tracks
 
-Use your favourite internet browser to navigate to  https://smb-informatics.mvls.gla.ac.uk/igv
+Use your favourite internet browser to navigate to  [https://smb-informatics.mvls.gla.ac.uk/igv](https://smb-informatics.mvls.gla.ac.uk/igv)
 
 (Note: if off campus, you will need to connect using the University VPN - [https://www.gla.ac.uk/myglasgow/it/vpn/](https://www.gla.ac.uk/myglasgow/it/vpn/))
 
@@ -10,21 +10,21 @@ You should see a window like this:
 
 The platinum WGS data we will be using have been aligned to version hg19 of the human reference genome, so we will need to first select the GRCh37/hg19 reference sequence from the genome menu:
 
-![](images/slide-genome-image-1.png){fig-alt="Screenshot of IGV"}
+![](images/slide-genome-image-1.png){fig-alt="How to change the reference in IGV"}
 
 In order to interpret the sequence data, we are going to add some additional “Annotation” “Tracks” to the IGV window:
 
-![](images/slide-04-image-1.png){fig-alt="Screenshot from slide 4 of the original IGV tutorial."}
+![](images/slide-04-image-1.png){fig-alt="How to add annotations to IGV"}
 
 Use Shift+Click to select the Repeat Masker and CpG Islands annotation tracks (in addition to the Refs Genes track which is a default track):
 
-![](images/slide-05-image-1.png){fig-alt="Screenshot from slide 5 of the original IGV tutorial."}
+![](images/slide-05-image-1.png){fig-alt="Selecting specific annotations in IGV"}
 
 We can also add some known “variants” as a track from the dbSNP database (version 150):
 
-![](images/slide-06-image-1.png){fig-alt="Screenshot from slide 6 of the original IGV tutorial."}
+![](images/slide-06-image-1.png){fig-alt="Adding the variant track to IGV"}
 
 Your window should now something look like this (you can use the grey handle on the right to drag the Refseq Gene annotation back to the top):
 
-![](images/slide-07-image-1.png){fig-alt="Screenshot of adding tracks to IGV"}
+![](images/slide-07-image-1.png){fig-alt="How to move and edit tracks in IGV"}
 

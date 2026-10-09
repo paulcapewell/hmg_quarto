@@ -2,13 +2,13 @@
 
 Once you have zoomed in a bit, you can now also navigate left and right by clicking and dragging the cursor in the data window. Move the *TERF1* gene to the centre of the frame:
 
-![](images/slide-14-image-1.png){fig-alt="Screenshot from slide 14 of the original IGV tutorial."}
+![](images/slide-14-image-1.png){fig-alt="The region surrounding the TERF1 gene in IGV"}
 
 **Exons** are indicated by the dark blue boxes with coding regions taller than the non-coding parts of the exons. **Introns** are indicated by the thin blue line, with the direction of transcription indicated by small arrows (\>)
 
 Zoom into see the structure of the *TERF1* gene (there are two primary transcripts for this gene):
 
-![](images/slide-15-image-1.png){fig-alt="Screenshot from slide 15 of the original IGV tutorial."}
+![](images/slide-15-image-1.png){fig-alt="A figure highlighting the open reading frame of TERF1"}
 
 ::: {.callout-tip title="Test your understanding"}
 - How many exons does the *TERF1* gene have?
@@ -16,7 +16,7 @@ Zoom into see the structure of the *TERF1* gene (there are two primary transcrip
 
 Move exon 1 of *TERF1* to the centre and zoom in some more. You should  start to see the reference sequence appearing. You can also press the cog on the track (A) to turn on “Three-frame translation” to aid in interpretation. This shows the amino acid sequences corresponding to the three possible reading frames of the DNA sequence.
 
-![](images/slide-16-image-1.png){fig-alt="Screenshot from slide 16 of the original IGV tutorial."}
+![](images/slide-16-image-1.png){fig-alt="A figure highlighting the cog used to edit settings for a track in IGV, including how to add three-frame translation"}
 
 ## Add promoter-associated chromatin data
 
@@ -24,10 +24,10 @@ We can add some additional information about the accessibility of DNA in this re
 
 Type H3K4me3 into the search box, select the first experiment and press ok to add the track.
 
-![](images/slide-17-image-1.png){fig-alt="Screenshot from slide 17 of the original IGV tutorial."}
+![](images/slide-17-image-1.png){fig-alt="A figure showing how to add the H3K4me3 track to IGV"}
 
 
-![](images/slide-18-image-1.png){fig-alt="Screenshot from slide 18 of the original IGV tutorial."}
+![](images/slide-18-image-1.png){fig-alt="A figure showing the start of TERF1, including CpG islands and H3K4me3 regions in IGV"}
 
 ::: {.callout-tip title="Test your understanding"}
 
@@ -47,7 +47,7 @@ Be careful - the vertical order of the reading frames sometimes jumps about as y
 :::
 
 
-![](images/slide-19-image-1.png){fig-alt="Screenshot from slide 19 of the original IGV tutorial."}
+![](images/slide-19-image-1.png){fig-alt="A figure showing the end of the first TERF1 exon in IGV, showing the splice donor site"}
 
 ::: {.callout-tip title="Test your understanding"}
 - What is the sequence of the last codon of exon 1?
@@ -57,7 +57,7 @@ Be careful - the vertical order of the reading frames sometimes jumps about as y
 
 Adjust the view to examine the end of the first intron and the beginning of the second exon.
 
-![](images/slide-20-image-1.png){fig-alt="Screenshot from slide 20 of the original IGV tutorial."}
+![](images/slide-20-image-1.png){fig-alt="A figure showing the start of the second TERF1 exon in IGV, showing the splice acceptor site"}
 
 
 ::: {.callout-tip title="Test your understanding"}
@@ -68,18 +68,18 @@ Adjust the view to examine the end of the first intron and the beginning of the 
 - What is the sequence of the last two bases of the intron?
 - Why is this important?
 
-![](images/slide-21-image-1.png){fig-alt="Screenshot from slide 21 of the original IGV tutorial." style="border: none;"}
+![](images/slide-21-image-1.png){fig-alt="A reminder of the genetic code" style="border: none;"}
 :::
 
 Scroll through the gene and note how the intronic sequences are comprised largely of dispersed repeat sequences.
 
-![](images/slide-22-image-1.png){fig-alt="Screenshot from slide 22 of the original IGV tutorial."}
+![](images/slide-22-image-1.png){fig-alt="A figure highlighting an intron in TERF1 in IGV"}
 
 ## Examine the terminal exon and 3′ UTR
 
 Navigate to the terminal *TERF1* exon and zoom in:
 
-![](images/slide-23-image-1.png){fig-alt="Screenshot from slide 23 of the original IGV tutorial."}
+![](images/slide-23-image-1.png){fig-alt="A figure showing the end of the final exon of TERF1 in IGV, showing part of the the 3' UTR and stop codon"}
 
 ::: {.callout-tip title="Test your understanding"}
 
@@ -89,7 +89,7 @@ Navigate to the terminal *TERF1* exon and zoom in:
 
 Zoom out to see the whole of the final exon.
 
-![](images/slide-24-image-1.png){fig-alt="Screenshot from slide 24 of the original IGV tutorial."}
+![](images/slide-24-image-1.png){fig-alt="A zoomed in view of the TERF1 3' UTR in IGV"}
 
 ::: {.callout-tip title="Test your understanding"}
 - What is the approximate length of the 3’ UTR for *TERF1*?
