@@ -1,4 +1,4 @@
-# 8: Genotypes, inheritance and haplotypes
+# 9: Genotypes, inheritance and haplotypes
 
 Let’s look at a few more variants. To start with, we'll focus on rs1280055. We can jump straight to this SNP by typing its ID into the IGV search bar.
 

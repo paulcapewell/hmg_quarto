@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "1: Introduction"
 subtitle: "Module 2 computer laboratory"
 execute:
   echo: true

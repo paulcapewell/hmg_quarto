@@ -1,4 +1,4 @@
-# 2: Navigate the genome
+# 3: Navigate the genome
 
 Before looking at any sequence data, get a feel for navigating around the genome and remind yourself of some features of genome organisation.
 
