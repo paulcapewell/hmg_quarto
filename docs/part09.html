@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>9: Variant effect predictor with APOE – HMG Sequencing Workshop</title>
+<title>10: Variant effect predictor with APOE – HMG Sequencing Workshop</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -327,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./part05.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">5: Load Platinum Genomes sequencing data</span></a>
+  <a href="./part05.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">6: Load Platinum Genomes sequencing data</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -337,7 +337,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./part07.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">7: Investigate variants using Ensembl</span></a>
+  <a href="./part07.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">8: Investigate variants using Ensembl</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -377,7 +377,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">9: Variant effect predictor with <em>APOE</em></span></h1>
+<h1 class="title"><span class="chapter-title">10: Variant effect predictor with <em>APOE</em></span></h1>
 </div>
 
 
@@ -395,11 +395,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Next, we’ll look at the <em>APOE</em> gene. You can quickly locate it using the search box.</p>
-<p><img src="images/slide-51-image-1.png" class="img-fluid" alt="Screenshot from slide 51 of the original IGV tutorial."></p>
+<p><img src="images/slide-51-image-1.png" class="img-fluid" alt="A zoomed out view showing the APOE1 region in IGV"></p>
 <p>Focus on the two common SNPs found in exon 4.</p>
-<p><img src="images/slide-52-image-1.png" class="img-fluid" alt="Screenshot from slide 52 of the original IGV tutorial."></p>
+<p><img src="images/slide-52-image-1.png" class="img-fluid" alt="A view showing to close SNPs in the APOE1 gene in IGV"></p>
 <p>Start with the variant at position chr19:45,411,941 (rs429358).</p>
-<p><img src="images/slide-53-image-1.png" class="img-fluid" alt="Screenshot from slide 53 of the original IGV tutorial."></p>
+<p><img src="images/slide-53-image-1.png" class="img-fluid" alt="A zoomed in view showing the coloured positions in the different Platinum genomes for the rs429358 SNP in IGV"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -432,7 +432,7 @@ Tip
 </div>
 <div class="callout-body-container callout-body">
 <p>We will be using hg19/GRCh37 coordinates, so make sure you are have the right genome version selected.</p>
-<p><img src="images/slide-53b-image-1.png" class="img-fluid" alt="Screenshot from slide 53 of the original IGV tutorial."></p>
+<p><img src="images/slide-53b-image-1.png" class="img-fluid" alt="A screenshot demonstrating how to change genome in Ensembl VEP"></p>
 </div>
 </div>
 <p>A VEP search string has to be in a set format:</p>
@@ -445,8 +445,8 @@ Tip
 <li>The fifth character is the variant base(s) that the position will change to</li>
 </ul>
 <p>Press “Add” when you’ve entered the details of the variant. Set the <strong>submission name</strong> to something you will remember.</p>
-<p><img src="images/slide-54-image-1.png" class="img-fluid" alt="Screenshot from slide 53 of the original IGV tutorial."></p>
-<p>We can also add some additional analyses to the job by scrolling down to <strong>Job Options</strong>. For now Enable <strong>CADD</strong> and <strong>REVEL</strong> under <strong>Variant impact predictions</strong>. These will help us predict any effect that the variants might have.</p>
+<p><img src="images/slide-54-image-1.png" class="img-fluid" alt="A screenshot demonstrating how to format a search string in Ensembl VEP"></p>
+<p>We can also add some additional analyses to the job by scrolling down to <strong>Job Options</strong>. For now Enable <strong>REVEL</strong> and <strong>CADD</strong> under <strong>Variant impact predictions</strong>. These will help us predict any effect that the variants might have.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -477,12 +477,12 @@ Tip
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/slide-56-image-1.png" class="img-fluid figure-img" alt="Screenshot from slide 56 of the original IGV tutorial."></p>
+<p><img src="images/slide-56-image-1.png" class="img-fluid figure-img" alt="A screenshot demonstrating how to add REVEL and CADD information to a search in Ensembl VEP"></p>
 <figcaption>Screenshot from the original tutorial (slide 56).</figcaption>
 </figure>
 </div>
 <p>Press “Run” when you’re ready. Your job will take a few minutes. Press <strong>Pesults</strong> when it has finished.</p>
-<p><img src="images/slide-57-image-1.png" class="img-fluid" alt="Screenshot from slide 57 of the original IGV tutorial."></p>
+<p><img src="images/slide-57-image-1.png" class="img-fluid" alt="A screenshot demonstrating how to get to the results of a search in Ensembl VE"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -501,7 +501,7 @@ Tip
 </div>
 </div>
 <p>There is another SNP a bit further downstream (rs7412).</p>
-<p><img src="images/slide-58-image-1.png" class="img-fluid" alt="Screenshot from slide 58 of the original IGV tutorial."></p>
+<p><img src="images/slide-58-image-1.png" class="img-fluid" alt="A zoomed in view showing the coloured positions in the different Platinum genomes for the rs7412 SNP in IGV"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">

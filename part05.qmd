@@ -1,4 +1,4 @@
-# 5: Load Platinum Genomes sequencing data
+# 6: Load Platinum Genomes sequencing data
 
 Next, we will load some actual sequence data from the platinum genomes collection of tracks:
 

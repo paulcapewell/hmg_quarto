@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>6: Inspect reads and identify variants in MYO6 – HMG Sequencing Workshop</title>
+<title>7: Inspect reads and identify variants in MYO6 – HMG Sequencing Workshop</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -327,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./part05.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">5: Load Platinum Genomes sequencing data</span></a>
+  <a href="./part05.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">6: Load Platinum Genomes sequencing data</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -337,17 +337,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./part07.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">7: Investigate variants using Ensembl</span></a>
+  <a href="./part07.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">8: Investigate variants using Ensembl</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./part08.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">8: Genotypes, inheritance and haplotypes</span></a>
+  <a href="./part08.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">9: Genotypes, inheritance and haplotypes</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./part09.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">9: Variant effect predictor with <em>APOE</em></span></a>
+  <a href="./part09.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">10: Variant effect predictor with <em>APOE</em></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -377,7 +377,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">6: Inspect reads and identify variants in <em>MYO6</em></span></h1>
+<h1 class="title"><span class="chapter-title">7: Inspect reads and identify variants in <em>MYO6</em></span></h1>
 </div>
 
 
@@ -409,17 +409,17 @@ Warning
 <p>(We will be examining variants in the top reference strand, so it is best to turn off the ‘reverse’ option for this region unless looking at whether a variant is synonymous)</p>
 </div>
 </div>
-<p><img src="images/slide-33-image-1.png" class="img-fluid" alt="Screenshot from slide 33 of the original IGV tutorial."></p>
+<p><img src="images/slide-33-image-1.png" class="img-fluid" alt="Selecting a position by region coordinates in IGV"></p>
 <p>The mountain plot at the top of the display shows the read depth across the region (the scale here goes from 0 to 52x). Individual 100 bp reads are shown as grey rectangles - the arrow on the end indicating the direction of the read (you can use the scroll bar here to see more of the reads).</p>
 <ul>
 <li>Where a base in a read is the same as the reference, it is coloured grey</li>
 <li>Where a base in a read is different to the reference, it is coloured by base.</li>
 </ul>
-<p><img src="images/slide-34-image-2.png" class="img-fluid" alt="Screenshot from slide 34 of the original IGV tutorial."></p>
+<p><img src="images/slide-34-image-2.png" class="img-fluid" alt="A zoomed in view showing that bases in the pileup that are the same as the reference are grey in IGV, whereas differences are coloured by base"></p>
 <p>Zooming in even closer we can see the actual sequences and identify any differences between the reads and the reference.</p>
-<p><img src="images/slide-35-image-1.png" class="img-fluid" style="width:50.0%" alt="Screenshot from slide 35 of the original IGV tutorial."></p>
+<p><img src="images/slide-35-image-1.png" class="img-fluid" style="width:50.0%" alt="A zoomed in view highlighting sites in the pileup that are different to the reference"></p>
 <p>To gauge whether any sequence differences might represent germline variants, we can examine the bases observed at each position by clicking on a base in the mountain plot at the top of each read track.</p>
-<p><img src="images/slide-36-image-1.png" class="img-fluid" style="width:30.0%" alt="Screenshot from slide 36 of the original IGV tutorial."></p>
+<p><img src="images/slide-36-image-1.png" class="img-fluid" style="width:30.0%" alt="A view of the pileup statistics at a position revealed by clicking the mountain plot in IGV"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -437,7 +437,7 @@ Warning
 </div>
 </div>
 <p>Moving along slightly to position 76,525,311:</p>
-<p><img src="images/slide-37-image-1.png" class="img-fluid" alt="Screenshot from slide 37 of the original IGV tutorial."></p>
+<p><img src="images/slide-37-image-1.png" class="img-fluid" alt="A view of the pileup statistics at a different position revealed by clicking the mountain plot in IGV"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -456,7 +456,7 @@ Warning
 </div>
 </div>
 <p>Examine the reads for the other members of the trio.</p>
-<p><img src="images/slide-38-image-1.png" class="img-fluid" alt="Screenshot from slide 38 of the original IGV tutorial."></p>
+<p><img src="images/slide-38-image-1.png" class="img-fluid" alt="A zoomed out view showing how the mountain plots are coloured differently at homozygous regions compared to heterozygous regions in IGV"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -474,7 +474,7 @@ Warning
 </div>
 </div>
 <p>By clicking on the feature in the Common SNPs track we can see that this is a known SNP and gain additional information:</p>
-<p><img src="images/slide-39-image-1.png" class="img-fluid" alt="Screenshot from slide 39 of the original IGV tutorial."></p>
+<p><img src="images/slide-39-image-1.png" class="img-fluid" alt="A zoomed in view showing the SNP stats revealed by clicking the position in the common snps track in IGV"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -910,13 +910,13 @@ Warning
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./part05.html" class="pagination-link" aria-label="5: Load Platinum Genomes sequencing data">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">5: Load Platinum Genomes sequencing data</span></span>
+      <a href="./part05.html" class="pagination-link" aria-label="6: Load Platinum Genomes sequencing data">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">6: Load Platinum Genomes sequencing data</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./part07.html" class="pagination-link" aria-label="7: Investigate variants using Ensembl">
-        <span class="nav-page-text"><span class="chapter-title">7: Investigate variants using Ensembl</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./part07.html" class="pagination-link" aria-label="8: Investigate variants using Ensembl">
+        <span class="nav-page-text"><span class="chapter-title">8: Investigate variants using Ensembl</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
