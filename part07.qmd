@@ -1,0 +1,18 @@
+# 7: Investigate variants using Ensembl
+
+We can find out even more about this SNP using the [Ensembl database](https://www.ensembl.org/search). Enter the SNP identifier (rs72890637) into the Ensembl search box (If Ensembl search is down, use the [direct link to the SNP](https://www.ensembl.org/feature-explorer/GCA_000001405.29/variant:6:75815594:rs72890637?allele=0))
+
+![](images/slide-40-image-1.png){fig-alt="Screenshot from slide 40 of the original IGV tutorial."}
+
+Then click on the link in the Ensembl **Feature explorer** search results.
+
+![](images/slide-41-image-1.png){fig-alt="Screenshot from slide 41 of the original IGV tutorial."}
+
+There are then links to various pieces of data about the SNP. Click on the **Allele Frequency** link.
+
+![](images/slide-42-image-1.png){fig-alt="Screenshot from slide 42 of the original IGV tutorial."}
+
+::: {.callout-tip title="Test your understanding"}
+- What is the minor allele frequency in Finland? (you may have to expand the gnomAD genomes v4.1 dataset)
+- How does that compare to the wider, non-Finnish European population? 
+:::

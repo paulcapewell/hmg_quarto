@@ -1,0 +1,117 @@
+# 8: Genotypes, inheritance and haplotypes
+
+Let’s look at a few more variants. To start with, we'll focus on rs1280055. We can jump straight to this SNP by typing its ID into the IGV search bar.
+
+![](images/slide-44-image-1.png){fig-alt="Screenshot from slide 44 of the original IGV tutorial."}
+
+::: {.callout-tip title="Test your understanding"}
+- What are the genotypes at rs1280055 for NA12877, NA12889 and NA12890?
+- Are they consistent with Mendelian inheritance patterns?
+:::
+    
+Scroll along a few hundred bases to the right and you should find another SNP -  rs1280056.
+
+![](images/slide-45-image-1.png){fig-alt="Screenshot from slide 45 of the original IGV tutorial."}
+
+::: {.callout-tip title="Test your understanding"}
+- What are the genotypes at rs1280056 for NA12877, NA12889 and NA12890?
+:::
+
+To determine which variants have been inherited together on the same chromosome, and hence which parents they likely came from, we can ‘phase’ the sequence to determine haplotypes. In the example below, a G at rs1280055 is always found with a G in rs1280056 in mate pairs that cover both SNPs. Conversely, a C in rs1280055 is always found with an A in rs1280056. This allows us to infer the haplotype for the sample.
+
+![](images/slide-47-image-1.png){fig-alt="Screenshot from slide 47 of the original IGV tutorial."}
+
+By using paired-reads, we can look at much longer sequence distances than the 100bp length of each individual read.
+
+![](images/pairedexample.png){fig-alt="images/pairedexample.png" width=50% style="border:none;"}
+
+::: callout-tip
+To help, we can use “view as pairs” in the parents to look for direct physical evidence of the parental haplotypes. This setting adds a line between read-pairs in the sequencing data, allowing us to see sequence that comes from the same fragment and originated from a single physical position in the genome.
+
+![](images/slide-48-image-1.png){fig-alt="Screenshot from slide 48 of the original IGV tutorial."}
+
+:::
+
+::: {.callout-tip title="Test your understanding"}
+
+Use the family data and any read-pairs to phase the variants in the table and determine the haplotypes for rs1280056 and rs1280055 in NA12877, NA12889 and NA12890 (Don’t forget to scroll up and down to view more reads). You may have to zoom to get both SNPs on screen at the same time.
+
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th>rs1280056</th>
+    <th>rs1280055</th>
+  </tr>
+  <tr>
+    <td>Position</td>
+    <td></td>
+    <td>chr6:76,541,531-76,541,593</td>
+    <td>chr6:76,540,356-76,542,357</td>
+  </tr>
+  <tr>
+    <td>Reference allele</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Alternate allele</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">NA12889 (father)</td>
+    <td>Genotype</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Haplotype 1</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Haplotype 2</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">NA12890 (mother)</td>
+    <td>Genotype</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Haplotype 1</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Haplotype 2</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">NA12877 (son)</td>
+    <td>Genotype</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Haplotype 1</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Haplotype 2</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+:::

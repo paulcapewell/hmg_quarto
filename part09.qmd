@@ -1,0 +1,96 @@
+# 9: Variant effect predictor with *APOE*
+
+Next, we'll look at the *APOE* gene. You can quickly locate it using the search box.
+
+![](images/slide-51-image-1.png){fig-alt="Screenshot from slide 51 of the original IGV tutorial."}
+
+Focus on the two common SNPs found in exon 4.
+
+![](images/slide-52-image-1.png){fig-alt="Screenshot from slide 52 of the original IGV tutorial."}
+
+Start with the variant at position chr19:45,411,941 (rs429358).
+
+![](images/slide-53-image-1.png){fig-alt="Screenshot from slide 53 of the original IGV tutorial."}
+
+::: {.callout-tip title="Test your understanding"}
+- What is the nature of the polymorphism at the DNA level?
+- Does this variant change the amino acid sequence (You will have to turn translation and work out which is the reading frame by looking at Exon 1)?
+- If so, from what to what?
+- What are the genotypes at this SNP for NA12877, NA12889 and NA12890?
+- What is the minor (alt) allele and the MAF?
+- What type of variant is this – would it impact the protein? 
+:::
+
+We can use the **variant effect predictor (VEP)** tool to gain some insight into potential functional effects of a given variant. Navigate to the VEP site: [https://www.ensembl.org/tools/vep](https://www.ensembl.org/tools/vep)
+
+::: callout-tip
+We will be using hg19/GRCh37 coordinates, so make sure you are have the right genome version selected.
+
+![](images/slide-53b-image-1.png){fig-alt="Screenshot from slide 53 of the original IGV tutorial."}
+
+:::
+
+A VEP search string has to be in a set format: 
+
+```
+19 45411941 45411941 T C
+```
+
+- The first number is the **Chromosome**
+- The second number is the start position
+- The third number is the end position (for a SNP, this is the same as the start position)
+- The fourth character is the wild-type base
+- The fifth character is the variant base(s) that the position will change to
+
+Press “Add” when you’ve entered the details of the variant. Set the **submission name** to something you will remember.
+
+![](images/slide-54-image-1.png){fig-alt="Screenshot from slide 53 of the original IGV tutorial."}
+
+We can also add some additional analyses to the job by scrolling down to **Job Options**. For now Enable **CADD** and **REVEL** under **Variant impact predictions**. These will help us predict any effect that the variants might have.
+
+::: callout-tip
+**REVEL (Rare Exome Variant Ensemble Learner)** is a computational tool that predicts whether a missense variant is likely to be disease-causing by combining the results of multiple variant effect prediction algorithms into a single score between 0 and 1. Higher REVEL scores indicate a greater likelihood that the variant is pathogenic, while lower scores suggest it is more likely to be benign. Although there are no set thresholds, a general rule of thumb is:
+
+- 0.8+ : Pathogenic
+- 0.5-0.8 : Likely Pathogenic
+- 0.2-0.5 : Likely benign
+- <0.2 : Benign
+
+**CADD (Combined Annotation Dependent Depletion)** is a variant prioritisation score that integrates multiple genomic annotations to predict the deleteriousness of genetic variants. Higher CADD PHRED scores indicate a greater likelihood of functional impact, with scores above 20 typically considered potentially damaging.
+
+CADD scores are ranked so that a score of 10 places a variant among the top 10% most deleterious variants in the genome, while a score of 20 places it among the top 1%.
+
+Although there are no set thresholds for CADD, a general rule of thumb is:
+
+- 30+  : Deleterious
+- 20-30 : Potentially deleterious
+- 10-20 : Unlikely to be deleterious
+- <10 : Not deleterious
+
+:::
+
+![Screenshot from the original tutorial (slide 56).](images/slide-56-image-1.png){fig-alt="Screenshot from slide 56 of the original IGV tutorial."}
+
+Press “Run” when you’re ready. Your job will take a few minutes. Press **Pesults** when it has finished.
+
+![](images/slide-57-image-1.png){fig-alt="Screenshot from slide 57 of the original IGV tutorial."}
+
+
+::: {.callout-tip title="Test your understanding"}
+- What type of variant is this?
+- What might the REVEL score indicate about this variant? (You might have to click show annotations to see these details)
+- What might the CADD score indicate about this variant? (You might have to click show annotations to see these details)
+
+:::
+
+There is another SNP a bit further downstream (rs7412). 
+
+![](images/slide-58-image-1.png){fig-alt="Screenshot from slide 58 of the original IGV tutorial."}
+
+::: {.callout-tip title="Test your understanding"}
+- What is the nature of the polymorphism at the DNA level?
+- Does this variant change the amino acid sequence?
+- If so, from what to what?
+- What are the genotypes at this SNP for NA12877, NA12889 and NA12890?
+- Is this variant likely to be pathogenic? (check using VEP)
+:::

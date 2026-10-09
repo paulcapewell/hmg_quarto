@@ -1,0 +1,26 @@
+# 10: Alzheimer’s disease and *APOE* haplotypes
+
+A combination of genetic, environmental, and lifestyle factors contribute to late onset Alzheimer’s disease (late-onset AD, LOAD), with genetic factors contributing approximately 60%. Variation at the *APOE* gene locus plays a contributory genetic role. *APOE* encodes a very low-density lipoprotein that helps remove cholesterol from the bloodstream. The exact functional role of the protein encoded by *APOE* in LOAD remains unclear
+
+The major *APOE* risk for LOAD is generally assumed to derive from the e2/e3/e4 haplotype system, with the e4 allele increasing risk for the disorder and the e2 allele being protective. The e2/e3/e4 haplotype system is defined by the two non-synonymous SNPs in *APOE* exon 4 that we just examined. One is a C/T SNP (rs429358) that encodes either cysteine (C) or arginine (R) at amino acid 130. The second site defining this haplotype system is a C/T SNP (rs7412), which again encodes arginine (R) or cysteine (C) at amino acid 176
+
+The allelic compositions of the commonly investigated rs429358/rs7412 haplotypes are:
+
+T–T for ε2
+
+T–C for ε3
+
+C–C for ε4
+
+|              | rs429358 | rs7412 | Frequency and Prognosis     |
+|--------------|----------|--------|-----------------------------|
+| APOE e2      | T        | T      | Rare, possibly protective   |
+| APOE e3      | T        | C      | Common, neutral             |
+| APOE e4      | C        | C      | 20% frequency, risk variant |
+| Not observed | C        | T      |                             |
+
+
+::: {.callout-tip title="Test your understanding"}
+- What are the *APOE* exon 4 haplotypes for NA12877, NA12889 and NA12890 and their relative LOAD risk status?
+- Why might the C–T haplotype not be observed?
+:::

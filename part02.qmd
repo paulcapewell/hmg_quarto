@@ -1,0 +1,30 @@
+# 2: Navigate the genome
+
+Before looking at any sequence data, get a feel for navigating around the genome and remind yourself of some features of genome organisation.
+
+To see more detail, we need to focus on a smaller region of the genome. There are various ways to do this, including selecting a chromosome either using the pull-down menu, or the chromosome buttons:
+
+![](images/slide-08-image-1.png){fig-alt="Screenshot from slide 8 of the original IGV tutorial."}
+
+Let’s look at chromosome 8:
+
+![](images/slide-09-image-1.png){fig-alt="Screenshot from slide 9 of the original IGV tutorial."}
+
+At this level we can start to see some detail regarding the distribution of known genes (A) and CpG islands (B).
+
+![](images/slide-10-image-1.png){fig-alt="Screenshot from slide 10 of the original IGV tutorial."}
+
+We can zoom in further by either clicking and dragging on the scale  (A), using the zoom buttons (B) or typing in sequence coordinates (C).
+
+![](images/slide-11-image-1.png){fig-alt="Screenshot from slide 11 of the original IGV tutorial."}
+
+Try pressing the + zoom button **five** times:
+
+You should now start to see individual genes and CpG islands. Note how genes and inter-genic regions differ in size.
+
+![](images/slide-12-image-1.png){fig-alt="Screenshot from slide 12 of the original IGV tutorial."}
+
+You can press the “Cursor Guide” and “Center Line” buttons to help with navigation.
+
+![](images/slide-13-image-1.png){fig-alt="Screenshot from slide 13 of the original IGV tutorial."}
+

@@ -1,0 +1,96 @@
+# 3: Interpret gene structure using *TERF1*
+
+Once you have zoomed in a bit, you can now also navigate left and right by clicking and dragging the cursor in the data window. Move the *TERF1* gene to the centre of the frame:
+
+![](images/slide-14-image-1.png){fig-alt="Screenshot from slide 14 of the original IGV tutorial."}
+
+**Exons** are indicated by the dark blue boxes with coding regions taller than the non-coding parts of the exons. **Introns** are indicated by the thin blue line, with the direction of transcription indicated by small arrows (\>)
+
+Zoom into see the structure of the *TERF1* gene (there are two primary transcripts for this gene):
+
+![](images/slide-15-image-1.png){fig-alt="Screenshot from slide 15 of the original IGV tutorial."}
+
+::: {.callout-tip title="Test your understanding"}
+- How many exons does the *TERF1* gene have?
+:::
+
+Move exon 1 of *TERF1* to the centre and zoom in some more. You should  start to see the reference sequence appearing. You can also press the cog on the track (A) to turn on “Three-frame translation” to aid in interpretation. This shows the amino acid sequences corresponding to the three possible reading frames of the DNA sequence.
+
+![](images/slide-16-image-1.png){fig-alt="Screenshot from slide 16 of the original IGV tutorial."}
+
+## Add promoter-associated chromatin data
+
+We can add some additional information about the accessibility of DNA in this region by adding an ENCODE Signal track containing ChIP-seq data for H3K4me3 (trimethylation of lysine 4 on histone H3). This histone variant is associated with open chromatin and marks active promoters in the genome, typically appearing near transcription start sites (TSSs).
+
+Type H3K4me3 into the search box, select the first experiment and press ok to add the track.
+
+![](images/slide-17-image-1.png){fig-alt="Screenshot from slide 17 of the original IGV tutorial."}
+
+
+![](images/slide-18-image-1.png){fig-alt="Screenshot from slide 18 of the original IGV tutorial."}
+
+::: {.callout-tip title="Test your understanding"}
+
+- Is CpG island 67 positioned where you expect it to? (zooming in might help)
+- Why?
+- Which of the three reading frames do you think is correct for exon 1?
+- What is the name of the first repeated element in intron 1?
+
+:::
+
+## Examine splice junctions
+
+Splice junctions mark the boundaries between exons and introns and are critical for the accurate removal of intronic sequence during RNA splicing. We adjust the view to examine the end of the first exon.
+
+::: callout-warning
+Be careful - the vertical order of the reading frames sometimes jumps about as you zoom in and out
+:::
+
+
+![](images/slide-19-image-1.png){fig-alt="Screenshot from slide 19 of the original IGV tutorial."}
+
+::: {.callout-tip title="Test your understanding"}
+- What is the sequence of the last codon of exon 1?
+- What is the sequence of the first two bases of the intron?
+- Why is this important?
+:::
+
+Adjust the view to examine the end of the first intron and the beginning of the second exon.
+
+![](images/slide-20-image-1.png){fig-alt="Screenshot from slide 20 of the original IGV tutorial."}
+
+
+::: {.callout-tip title="Test your understanding"}
+
+- What is the sequence of the first codon of exon 2?
+- What is the codon after splicing with final base of the previous exon?
+- Which amino acid does it encode (see below for the genetic code)?
+- What is the sequence of the last two bases of the intron?
+- Why is this important?
+
+![](images/slide-21-image-1.png){fig-alt="Screenshot from slide 21 of the original IGV tutorial." style="border: none;"}
+:::
+
+Scroll through the gene and note how the intronic sequences are comprised largely of dispersed repeat sequences.
+
+![](images/slide-22-image-1.png){fig-alt="Screenshot from slide 22 of the original IGV tutorial."}
+
+## Examine the terminal exon and 3′ UTR
+
+Navigate to the terminal *TERF1* exon and zoom in:
+
+![](images/slide-23-image-1.png){fig-alt="Screenshot from slide 23 of the original IGV tutorial."}
+
+::: {.callout-tip title="Test your understanding"}
+
+- Which is the correct reading frame for this exon in your view?
+- What is the sequence of the stop codon?
+:::
+
+Zoom out to see the whole of the final exon.
+
+![](images/slide-24-image-1.png){fig-alt="Screenshot from slide 24 of the original IGV tutorial."}
+
+::: {.callout-tip title="Test your understanding"}
+- What is the approximate length of the 3’ UTR for *TERF1*?
+:::

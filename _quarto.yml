@@ -1,0 +1,51 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "HMG Sequencing Workshop"
+  downloads:
+    - pdf
+    - epub
+  sidebar:
+    style: docked
+  chapters:
+    - index.qmd
+    - part01.qmd
+    - part02.qmd
+    - part03.qmd
+    - part04.qmd
+    - part05.qmd
+    - part06.qmd
+    - part07.qmd
+    - part08.qmd
+    - part09.qmd
+    - part10.qmd
+    - part11.qmd
+    - references.qmd
+
+format:
+  html:
+    include-in-header:
+      text: |
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://unpkg.com/tippy.js@6"></script>
+        <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+    theme:
+      light: flatly
+      dark: darkly
+    toc: false
+    number-sections: false
+    page-navigation: true
+    search: true
+    code-copy: hover
+    code-overflow: wrap
+    highlight-style: a11y
+    css: styles.css
+#  pdf:
+#    documentclass: scrreprt # only works if latex is installed
+#    toc: true
+
+
+
+
