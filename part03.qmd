@@ -1,4 +1,4 @@
-# 4: Interpret gene structure using *TERF1*
+# Interpret gene structure using *TERF1*
 
 Once you have zoomed in a bit, you can now also navigate left and right by clicking and dragging the cursor in the data window. Move the *TERF1* gene to the centre of the frame:
 

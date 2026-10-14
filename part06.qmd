@@ -1,4 +1,4 @@
-# 7: Inspect reads and identify variants in *MYO6*
+# Inspect reads and identify variants in *MYO6*
 
 Let’s zoom in and have a look at a region in the *MYO6* gene of the trio in detail by typing the chromosome coordinates into the search box: chr6:76,525,195-76,525,426. 
 

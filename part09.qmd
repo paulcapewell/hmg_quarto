@@ -1,4 +1,4 @@
-# 10: Variant effect predictor with *APOE*
+# Variant effect predictor with *APOE*
 
 Next, we'll look at the *APOE* gene. You can quickly locate it using the search box.
 

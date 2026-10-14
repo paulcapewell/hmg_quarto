@@ -1,12 +1,11 @@
 ---
-title: "1: Introduction"
+title: "Introduction"
 subtitle: "Module 2 computer laboratory"
 execute:
   echo: true
 ---
 
-**Intended Learning Outcomes**
-
+::: {.callout-note title="**Intended Learning Outcomes**"}
 By the end of this practical, you should be able to:
 
 - navigate aligned short-read sequencing data in IGV
@@ -15,8 +14,7 @@ By the end of this practical, you should be able to:
 - assess Mendelian inheritance in a parent-child trio
 - phase nearby variants into haplotypes using family information and paired reads
 - investigate population frequency and predicted functional consequences using Ensembl, VEP and gnomAD
-
-# Introduction and learning objectives
+:::
 
 The advent of short-read sequencing technologies, allowing high-throughput DNA sequencing at relatively low cost, has revolutionised genetics over the last fifteen years or so. In particular the ability to sequence whole human exomes, genomes and transcriptomes, has transformed how we conduct human genetics, yielding radical new approaches to human disease gene identification and allowing us to ask questions largely unimaginable just a few years ago. However, although in many areas it is relatively straightforward to generate DNA sequence data, interpreting the masses of data generated remains a major logistical and bioinformatic challenge. Fortunately, data analysis and interpretation are still largely based on fundamental genetic principles and our knowledge of the molecular pathway from DNA to RNA to protein.
 

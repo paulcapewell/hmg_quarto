@@ -1,4 +1,4 @@
-# 2: Set up IGV and annotation tracks
+# Set up IGV and annotation tracks
 
 Use your favourite internet browser to navigate to  [https://smb-informatics.mvls.gla.ac.uk/igv](https://smb-informatics.mvls.gla.ac.uk/igv){target="_blank" rel="noopener noreferrer"}
 

@@ -1,4 +1,4 @@
-# 5: Genes on the reverse strand: *DMPK*
+# Genes on the reverse strand: *DMPK*
 
 Let’s look at the *DMPK* gene. This gene is different from *TERF1* as it is transcribed from the bottom strand relative to the chromosomal reference (the top strand). Exon 1 is on the right, and the terminal exon on the left. You can quickly navigate to *DMPK* (or any gene) by typing its name into the search bar.
 

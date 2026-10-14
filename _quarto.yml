@@ -25,16 +25,11 @@ book:
 
 format:
   html:
-    include-in-header:
-      text: |
-        <script src="https://unpkg.com/@popperjs/core@2"></script>
-        <script src="https://unpkg.com/tippy.js@6"></script>
-        <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
     theme:
       light: flatly
       dark: darkly
     toc: false
-    number-sections: false
+    number-sections: true
     page-navigation: true
     search: true
     code-copy: hover
