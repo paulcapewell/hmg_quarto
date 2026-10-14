@@ -24,3 +24,14 @@ C–C for ε4
 - What are the *APOE* exon 4 haplotypes for NA12877, NA12889 and NA12890 and their relative LOAD risk status?
 - Why might the C–T haplotype not be observed?
 :::
+
+::: {.callout-tip collapse="true" title="Answer"}
+The haplotypes and relaitve LOAD risk are:
+
+- NA12877: T–C APOE ε2 possibly protective, T–T APOE ε3 neutral
+- NA12889: T–C APOE ε2 possibly protective, T–C APOE ε2 possibly protective
+- NA12890: T–C APOE ε2 possibly protective, T–T APOE ε3 neutral
+
+The C-T haplotype may not be observed as the two variants are very close and the probability of a recombination event generating the fourth recombinant haplotype is very low
+
+:::

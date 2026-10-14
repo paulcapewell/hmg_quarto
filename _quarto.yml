@@ -6,7 +6,6 @@ book:
   title: "HMG Sequencing Workshop"
   downloads:
     - pdf
-    - epub
   sidebar:
     style: docked
   chapters:
@@ -42,9 +41,9 @@ format:
     code-overflow: wrap
     highlight-style: a11y
     css: styles.css
-#  pdf:
-#    documentclass: scrreprt # only works if latex is installed
-#    toc: true
+  pdf:
+    documentclass: scrreprt # only works if latex is installed
+    toc: true
 
 
 

@@ -5,7 +5,7 @@ Let’s zoom in and have a look at a region in the *MYO6* gene of the trio in de
 *MYO6* mutations are linked to autosomal dominant and autosomal recessive inherited hearing loss.
 
 ::: callout-warning
-(We will be examining variants in the top reference strand, so it is best to turn off the ‘reverse’ option for this region unless looking at whether a variant is synonymous)
+We will be examining variants in the top reference strand, so it is best to turn off the ‘reverse’ option for this region unless looking at whether a variant is synonymous
 :::
 
 ![](images/slide-33-image-1.png){fig-alt="Selecting a position by region coordinates in IGV"}
@@ -23,12 +23,18 @@ Zooming in even closer we can see the actual sequences and identify any differen
 
 To gauge whether any sequence differences might represent germline variants, we can examine the bases observed at each position by clicking on a base in the mountain plot at the top of each read track.
 
-![](images/slide-36-image-1.png){fig-alt="A view of the pileup statistics at a position revealed by clicking the mountain plot in IGV" width="30%"}
+![](images/slide-36-image-1.png){fig-alt="A view of the pileup statistics at a position revealed by clicking the mountain plot in IGV" width="50%"}
 
 ::: {.callout-tip title="Test your understanding"}
 - What do you think is the germline genotype for NA12877 (the son) at position ch6:76,525,300?
 - What are the possible sources of the G read observed?
 :::
+
+::: {.callout-tip collapse="true" title="Answer"}
+- This position appears to be homozygous A (A/A) because all the reads are the same
+- Most likely a sequencing error, but could possibly be a rare somatic variant
+:::
+
 
 Moving along slightly to  position 76,525,311:
 
@@ -40,6 +46,13 @@ Moving along slightly to  position 76,525,311:
 - How sure are we that this is not a sequencing error?
 :::
 
+::: {.callout-tip collapse="true" title="Answer"}
+- The reference sequence at position chr6:76,525,311 is **C**
+- The germline genotype at position chr6:76,525,311 for NA12877 is Homozygous T (T/T)
+- All of the reads (51/51) were T at this position, unless this was a highly reproducible sequencing error, then there is a very low probability that the germline genotype was C/C and all the reads were errors   
+:::
+
+
 Examine the reads for the other members of the trio.
 
 ![](images/slide-38-image-1.png){fig-alt="A zoomed out view showing how the mountain plots are coloured differently at homozygous regions compared to heterozygous regions in IGV"}
@@ -48,6 +61,12 @@ Examine the reads for the other members of the trio.
 - What are the genotypes at position chr6:76,525,311 for NA12889 and NA12890?
 - Are the predicted genotypes consistent with Mendelian expectations?
 :::
+
+::: {.callout-tip collapse="true" title="Answer"}
+- Both parents are heterozygous T/C
+- The pattern does fit with Mendelian expectations: father T/C, mother T/C and son T/T suggest the son inherited a T from each parent
+:::
+
 
 By clicking on the feature in the Common SNPs track we can see that this is a known SNP and gain additional information:
 
@@ -58,3 +77,7 @@ By clicking on the feature in the Common SNPs track we can see that this is a kn
 - What is the minor allele frequency (MAF)?
 :::
 
+::: {.callout-tip collapse="true" title="Answer"}
+- The SNP identifier is rs72890637
+- The MAF is 0.023
+:::

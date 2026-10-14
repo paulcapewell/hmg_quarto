@@ -1,8 +1,8 @@
 # 2: Set up IGV and annotation tracks
 
-Use your favourite internet browser to navigate to  [https://smb-informatics.mvls.gla.ac.uk/igv](https://smb-informatics.mvls.gla.ac.uk/igv)
+Use your favourite internet browser to navigate to  [https://smb-informatics.mvls.gla.ac.uk/igv](https://smb-informatics.mvls.gla.ac.uk/igv){target="_blank" rel="noopener noreferrer"}
 
-(Note: if off campus, you will need to connect using the University VPN - [https://www.gla.ac.uk/myglasgow/it/vpn/](https://www.gla.ac.uk/myglasgow/it/vpn/))
+(Note: if off campus, you will need to connect using the University VPN - [https://www.gla.ac.uk/myglasgow/it/vpn/](https://www.gla.ac.uk/myglasgow/it/vpn/){target="_blank" rel="noopener noreferrer"})
 
 You should see a window like this:
 

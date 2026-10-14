@@ -272,23 +272,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">HMG Sequencing Workshop</a> 
         <div class="sidebar-tools-main">
-    <div class="dropdown">
-      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./HMG-Sequencing-Workshop.pdf">
-              <i class="bi bi-file-pdf pe-1"></i>
-            Download PDF
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./HMG-Sequencing-Workshop.epub">
-              <i class="bi bi-journal pe-1"></i>
-            Download ePub
-            </a>
-          </li>
-      </ul>
-    </div>
+    <a href="./HMG-Sequencing-Workshop.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -414,12 +398,28 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </div>
 </div>
-<p>Move exon 1 of <em>TERF1</em> to the centre and zoom in some more. You should start to see the reference sequence appearing. You can also press the cog on the track (A) to turn on “Three-frame translation” to aid in interpretation. This shows the amino acid sequences corresponding to the three possible reading frames of the DNA sequence.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>TERF1</em> has two primary transcripts, one with 9 exons (upper) and one with 10 (lower).</p>
+</div>
+</div>
+</div>
+<p>Move exon 1 of <em>TERF1</em> to the centre and zoom in some more. You should start to see the reference sequence appearing. You can also press the cog on the track to turn on “Three-frame translation” to aid in interpretation. This shows the amino acid sequences corresponding to the three possible reading frames of the DNA sequence.</p>
 <p><img src="images/slide-16-image-1.png" class="img-fluid" alt="A figure highlighting the cog used to edit settings for a track in IGV, including how to add three-frame translation"></p>
 <section id="add-promoter-associated-chromatin-data" class="level2">
 <h2 class="anchored" data-anchor-id="add-promoter-associated-chromatin-data">Add promoter-associated chromatin data</h2>
 <p>We can add some additional information about the accessibility of DNA in this region by adding an ENCODE Signal track containing ChIP-seq data for H3K4me3 (trimethylation of lysine 4 on histone H3). This histone variant is associated with open chromatin and marks active promoters in the genome, typically appearing near transcription start sites (TSSs).</p>
-<p>Type H3K4me3 into the search box, select the first experiment and press ok to add the track.</p>
+<p>Add the ENCODE H3K4me3 track and select the ‘GM12878 H3K4me3 | Raw Signal | Biorep 1’ experiment near the bottom of the list and press ok to add the track.</p>
 <p><img src="images/slide-17-image-1.png" class="img-fluid" alt="A figure showing how to add the H3K4me3 track to IGV"></p>
 <p><img src="images/slide-18-image-1.png" class="img-fluid" alt="A figure showing the start of TERF1, including CpG islands and H3K4me3 regions in IGV"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
@@ -438,6 +438,26 @@ ul.task-list li input[type="checkbox"] {
 <li>Which of the three reading frames do you think is correct for exon 1?</li>
 <li>What is the name of the first repeated element in intron 1?</li>
 </ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Yes, CpG island 67 spans a promoter region in exon 1 and associates with H3K4me3 ChIPseq data (typically found at TSS and open chromatin)</li>
+<li>The correct frame starts with an ATG and has no STOP codons within exon 1. It will depend on your particular instance of IGV.</li>
+<li>The first repeated element is a MIRb element and there are some additional Alu, LINE and MIR elements, and simple sequence repeats, further down. Note that ~80% of intron 1 sequence is some sort of repeat.</li>
+</ul>
+</div>
 </div>
 </div>
 </section>
@@ -475,6 +495,26 @@ Warning
 </ul>
 </div>
 </div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>It will depend on your IGV instance but in this image it is the bottom frame as this matches the start codon at the beginning of the transcript, so the last condon is <strong>G–</strong></li>
+<li>The first two bases on the intron are GT.</li>
+<li>This is the consensus splice donor sites</li>
+</ul>
+</div>
+</div>
+</div>
 <p>Adjust the view to examine the end of the first intron and the beginning of the second exon.</p>
 <p><img src="images/slide-20-image-1.png" class="img-fluid" alt="A figure showing the start of the second TERF1 exon in IGV, showing the splice acceptor site"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
@@ -497,13 +537,35 @@ Warning
 <p><img src="images/slide-21-image-1.png" class="img-fluid" style="border: none;" alt="A reminder of the genetic code"></p>
 </div>
 </div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>The codon so far contains <strong>G–</strong> and was split by the intron. To make it a complete triplciate, the rest of the codon must be the <em>-AT</em> from exon 2.</li>
+<li>GAT.</li>
+<li>Aspartic Acid (D)</li>
+<li>The last two bases are AG</li>
+<li>This is the consensus splice acceptor site.</li>
+</ul>
+</div>
+</div>
+</div>
 <p>Scroll through the gene and note how the intronic sequences are comprised largely of dispersed repeat sequences.</p>
 <p><img src="images/slide-22-image-1.png" class="img-fluid" alt="A figure highlighting an intron in TERF1 in IGV"></p>
 </section>
 <section id="examine-the-terminal-exon-and-3-utr" class="level2">
 <h2 class="anchored" data-anchor-id="examine-the-terminal-exon-and-3-utr">Examine the terminal exon and 3′ UTR</h2>
 <p>Navigate to the terminal <em>TERF1</em> exon and zoom in:</p>
-<p><img src="images/slide-23-image-1.png" class="img-fluid" alt="A figure showing the end of the final exon of TERF1 in IGV, showing part of the the 3' UTR and stop codon"></p>
+<p><img src="images/slide-23-image-1.png" class="img-fluid" alt="A figure showing the end of the final exon of TERF1 in IGV, showing part of the 3' UTR and stop codon"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -518,6 +580,25 @@ Warning
 <li>Which is the correct reading frame for this exon in your view?</li>
 <li>What is the sequence of the stop codon?</li>
 </ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>It will depend on your IGV instance but in this image it is the bottom frame as the stop codon coincides with the end of the terminal exon.</li>
+<li>TGA</li>
+</ul>
+</div>
 </div>
 </div>
 <p>Zoom out to see the whole of the final exon.</p>
@@ -535,6 +616,22 @@ Warning
 <ul>
 <li>What is the approximate length of the 3’ UTR for <em>TERF1</em>?</li>
 </ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The UTR spans 73,960,358 to 73,958,372 so is 1,986 bases (apporx. 2000 bp)</p>
+</div>
 </div>
 </div>
 

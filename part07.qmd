@@ -1,6 +1,6 @@
 # 8: Investigate variants using Ensembl
 
-We can find out even more about this SNP using the [Ensembl database](https://www.ensembl.org/search). Enter the SNP identifier (rs72890637) into the Ensembl search box (If Ensembl search is down, use the [direct link to the SNP](https://www.ensembl.org/feature-explorer/GCA_000001405.29/variant:6:75815594:rs72890637?allele=0))
+We can find out even more about this SNP using the [Ensembl database](https://www.ensembl.org/search){target="_blank" rel="noopener noreferrer"}. Enter the SNP identifier (rs72890637) into the Ensembl search box (If Ensembl search is down, use the [direct link to the SNP](https://www.ensembl.org/feature-explorer/GCA_000001405.29/variant:6:75815594:rs72890637?allele=0){target="_blank" rel="noopener noreferrer"})
 
 ![](images/slide-40-image-1.png){fig-alt="A screenshot demonstrating how to search on Ensembl"}
 
@@ -15,4 +15,9 @@ There are then links to various pieces of data about the SNP. Click on the **All
 ::: {.callout-tip title="Test your understanding"}
 - What is the minor allele frequency in Finland? (you may have to expand the gnomAD genomes v4.1 dataset)
 - How does that compare to the wider, non-Finnish European population? 
+:::
+
+::: {.callout-tip collapse="true" title="Answer"}
+- The MAF for Finnish Europeans is 9%
+- The wider European population MAF is 6%. Finland often differs from other European populations because of a phenomenon called the Finnish founder effect that has emerged because of a small founder population, various bottlenecks, geographic isolation and low immigration.
 :::

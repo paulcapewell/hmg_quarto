@@ -272,23 +272,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">HMG Sequencing Workshop</a> 
         <div class="sidebar-tools-main">
-    <div class="dropdown">
-      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./HMG-Sequencing-Workshop.pdf">
-              <i class="bi bi-file-pdf pe-1"></i>
-            Download PDF
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./HMG-Sequencing-Workshop.epub">
-              <i class="bi bi-journal pe-1"></i>
-            Download ePub
-            </a>
-          </li>
-      </ul>
-    </div>
+    <a href="./HMG-Sequencing-Workshop.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -412,6 +396,25 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </div>
 </div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>The genotypes are C/C for NA12877 (child), G/C for NA12889 (father) and G/C for NA12890 (mother)</li>
+<li>These are consistent with Mendelian inheritance and the child has inherited a C allele from each heterozygous parent</li>
+</ul>
+</div>
+</div>
+</div>
 <p>Scroll along a few hundred bases to the right and you should find another SNP - rs1280056.</p>
 <p><img src="images/slide-45-image-1.png" class="img-fluid" alt="Screenshot from slide 45 of the original IGV tutorial."></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
@@ -427,6 +430,22 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>What are the genotypes at rs1280056 for NA12877, NA12889 and NA12890?</li>
 </ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The genotypes are A/A for NA12877 (child), A/G for NA12889 (father) and A/G for NA12890 (mother)</p>
+</div>
 </div>
 </div>
 <p>To determine which variants have been inherited together on the same chromosome, and hence which parents they likely came from, we can ‘phase’ the sequence to determine haplotypes. In the example below, a G at rs1280055 is always found with a G in rs1280056 in mate pairs that cover both SNPs. Conversely, a C in rs1280055 is always found with an A in rs1280056. This allows us to infer the haplotype for the sample.</p>
@@ -465,15 +484,15 @@ Tip
 <th>
 </th>
 <th>
-rs1280056
+<b>rs1280056</b>
 </th>
 <th>
-rs1280055
+<b>rs1280055</b>
 </th>
 </tr>
 <tr>
 <td>
-Position
+<b>Position</b>
 </td>
 <td>
 </td>
@@ -486,7 +505,7 @@ chr6:76,540,356-76,542,357
 </tr>
 <tr>
 <td>
-Reference allele
+<b>Reference allele</b>
 </td>
 <td>
 </td>
@@ -497,39 +516,9 @@ Reference allele
 </tr>
 <tr>
 <td>
-Alternate allele
+<b>Alternate allele</b>
 </td>
 <td>
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td rowspan="3">
-NA12889 (father)
-</td>
-<td>
-Genotype
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-Haplotype 1
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-Haplotype 2
 </td>
 <td>
 </td>
@@ -538,19 +527,10 @@ Haplotype 2
 </tr>
 <tr>
 <td rowspan="3">
-NA12890 (mother)
+<b>NA12889 (father)</b>
 </td>
 <td>
-Genotype
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-Haplotype 1
+<b>Genotype</b>
 </td>
 <td>
 </td>
@@ -559,7 +539,16 @@ Haplotype 1
 </tr>
 <tr>
 <td>
-Haplotype 2
+<b>Haplotype 1</b>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>Haplotype 2</b>
 </td>
 <td>
 </td>
@@ -568,19 +557,10 @@ Haplotype 2
 </tr>
 <tr>
 <td rowspan="3">
-NA12877 (son)
+<b>NA12890 (mother)</b>
 </td>
 <td>
-Genotype
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-Haplotype 1
+<b>Genotype</b>
 </td>
 <td>
 </td>
@@ -589,7 +569,46 @@ Haplotype 1
 </tr>
 <tr>
 <td>
-Haplotype 2
+<b>Haplotype 1</b>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>Haplotype 2</b>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td rowspan="3">
+<b>NA12877 (son)</b>
+</td>
+<td>
+<b>Genotype</b>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>Haplotype 1</b>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>Haplotype 2</b>
 </td>
 <td>
 </td>
@@ -597,6 +616,182 @@ Haplotype 2
 </td>
 </tr>
 </tbody></table>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table>
+<tbody><tr>
+<th>
+</th>
+<th>
+</th>
+<th>
+<b>rs1280056</b>
+</th>
+<th>
+<b>rs1280055</b>
+</th>
+</tr>
+<tr>
+<td>
+<b>Position</b>
+</td>
+<td>
+</td>
+<td>
+chr6:76,541,531-76,541,593
+</td>
+<td>
+chr6:76,540,356-76,542,357
+</td>
+</tr>
+<tr>
+<td>
+<b>Reference allele</b>
+</td>
+<td>
+</td>
+<td>
+A
+</td>
+<td>
+C
+</td>
+</tr>
+<tr>
+<td>
+<b>Alternate allele</b>
+</td>
+<td>
+</td>
+<td>
+G
+</td>
+<td>
+G
+</td>
+</tr>
+<tr>
+<td rowspan="3">
+<b>NA12889 (father)</b>
+</td>
+<td>
+<b>Genotype</b>
+</td>
+<td>
+A/G
+</td>
+<td>
+C/G
+</td>
+</tr>
+<tr>
+<td>
+<b>Haplotype 1</b>
+</td>
+<td>
+A
+</td>
+<td>
+C
+</td>
+</tr>
+<tr>
+<td>
+<b>Haplotype 2</b>
+</td>
+<td>
+G
+</td>
+<td>
+G
+</td>
+</tr>
+<tr>
+<td rowspan="3">
+<b>NA12890 (mother)</b>
+</td>
+<td>
+<b>Genotype</b>
+</td>
+<td>
+A/G
+</td>
+<td>
+C/G
+</td>
+</tr>
+<tr>
+<td>
+<b>Haplotype 1</b>
+</td>
+<td>
+A
+</td>
+<td>
+C
+</td>
+</tr>
+<tr>
+<td>
+<b>Haplotype 2</b>
+</td>
+<td>
+G
+</td>
+<td>
+G
+</td>
+</tr>
+<tr>
+<td rowspan="3">
+<b>NA12877 (son)</b>
+</td>
+<td>
+<b>Genotype</b>
+</td>
+<td>
+A/A
+</td>
+<td>
+C/C
+</td>
+</tr>
+<tr>
+<td>
+<b>Haplotype 1</b>
+</td>
+<td>
+A
+</td>
+<td>
+C
+</td>
+</tr>
+<tr>
+<td>
+<b>Haplotype 2</b>
+</td>
+<td>
+A
+</td>
+<td>
+C
+</td>
+</tr>
+</tbody></table>
+</div>
 </div>
 </div>
 

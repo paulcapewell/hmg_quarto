@@ -272,23 +272,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">HMG Sequencing Workshop</a> 
         <div class="sidebar-tools-main">
-    <div class="dropdown">
-      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./HMG-Sequencing-Workshop.pdf">
-              <i class="bi bi-file-pdf pe-1"></i>
-            Download PDF
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./HMG-Sequencing-Workshop.epub">
-              <i class="bi bi-journal pe-1"></i>
-            Download ePub
-            </a>
-          </li>
-      </ul>
-    </div>
+    <a href="./HMG-Sequencing-Workshop.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -396,9 +380,9 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Next, we will load some actual sequence data from the platinum genomes collection of tracks:</p>
 <p><img src="images/slide-28-image-1.png" class="img-fluid" alt="How to load the Platinum genomes tracks in IGV"></p>
-<p>Shift-click samples <strong>NA12889</strong>, <strong>NA12890</strong> and <strong>NA12877</strong> and press OK.</p>
+<p>SHift-click samples <strong>NA12889</strong>, <strong>NA12890</strong> and <strong>NA12877</strong> and press OK.</p>
 <p><img src="images/slide-29-image-1.png" class="img-fluid" alt="Selecting the parent-child trio in the Platinum genomes"></p>
-<p>The platinum genomes are derived from a reference genome dataset described in <a href="https://genome.cshlp.org/content/27/1/157">Eberle <em>et al., 2017</em></a>. In the study, the genomes of four grandparents, two parents and 11 children were sequenced on an Illumina HiSeq2000 to an average depth of 50× using 2×100 bp paired-end reads.</p>
+<p>The platinum genomes are derived from a reference genome dataset described in <a href="https://genome.cshlp.org/content/27/1/157" target="_blank" rel="noopener noreferrer">Eberle <em>et al., 2017</em></a>. In the study, the genomes of four grandparents, two parents and 11 children were sequenced on an Illumina HiSeq2000 to an average depth of 50× using 2×100 bp paired-end reads.</p>
 <p>The ID of each sample is defined by adding the family identifier prefix (e.g.&nbsp;NA128) to each numbered individual (e.g.&nbsp;77 would be NA12877). For this session, we will load in a mother-father-child trio (individuals 89, 90 and 77) from family NA128.</p>
 <p><img src="images/slide-30-image-1.png" class="img-fluid" style="border:none;" alt="Overiview of the Platinum genomes pedigree"></p>
 <p>You may need to use the cog associated with each track to change the Track Height to get everything visible on your screen. You can also drag the tracks into an easier order using the handles at the side of each track.</p>

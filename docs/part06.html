@@ -272,23 +272,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">HMG Sequencing Workshop</a> 
         <div class="sidebar-tools-main">
-    <div class="dropdown">
-      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./HMG-Sequencing-Workshop.pdf">
-              <i class="bi bi-file-pdf pe-1"></i>
-            Download PDF
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./HMG-Sequencing-Workshop.epub">
-              <i class="bi bi-journal pe-1"></i>
-            Download ePub
-            </a>
-          </li>
-      </ul>
-    </div>
+    <a href="./HMG-Sequencing-Workshop.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -406,7 +390,7 @@ Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>(We will be examining variants in the top reference strand, so it is best to turn off the ‘reverse’ option for this region unless looking at whether a variant is synonymous)</p>
+<p>We will be examining variants in the top reference strand, so it is best to turn off the ‘reverse’ option for this region unless looking at whether a variant is synonymous</p>
 </div>
 </div>
 <p><img src="images/slide-33-image-1.png" class="img-fluid" alt="Selecting a position by region coordinates in IGV"></p>
@@ -419,7 +403,7 @@ Warning
 <p>Zooming in even closer we can see the actual sequences and identify any differences between the reads and the reference.</p>
 <p><img src="images/slide-35-image-1.png" class="img-fluid" style="width:50.0%" alt="A zoomed in view highlighting sites in the pileup that are different to the reference"></p>
 <p>To gauge whether any sequence differences might represent germline variants, we can examine the bases observed at each position by clicking on a base in the mountain plot at the top of each read track.</p>
-<p><img src="images/slide-36-image-1.png" class="img-fluid" style="width:30.0%" alt="A view of the pileup statistics at a position revealed by clicking the mountain plot in IGV"></p>
+<p><img src="images/slide-36-image-1.png" class="img-fluid" style="width:50.0%" alt="A view of the pileup statistics at a position revealed by clicking the mountain plot in IGV"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -434,6 +418,25 @@ Warning
 <li>What do you think is the germline genotype for NA12877 (the son) at position ch6:76,525,300?</li>
 <li>What are the possible sources of the G read observed?</li>
 </ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>This position appears to be homozygous A (A/A) because all the reads are the same</li>
+<li>Most likely a sequencing error, but could possibly be a rare somatic variant</li>
+</ul>
+</div>
 </div>
 </div>
 <p>Moving along slightly to position 76,525,311:</p>
@@ -455,6 +458,27 @@ Warning
 </ul>
 </div>
 </div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>The reference sequence at position chr6:76,525,311 is <strong>C</strong></li>
+<li>The germline genotype at position chr6:76,525,311 for NA12877 is Homozygous T (T/T)</li>
+<li>All of the reads (51/51) were T at this position, unless this was a highly reproducible sequencing error, then there is a very low probability that the germline genotype was C/C and all the reads were errors<br>
+</li>
+</ul>
+</div>
+</div>
+</div>
 <p>Examine the reads for the other members of the trio.</p>
 <p><img src="images/slide-38-image-1.png" class="img-fluid" alt="A zoomed out view showing how the mountain plots are coloured differently at homozygous regions compared to heterozygous regions in IGV"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
@@ -473,6 +497,25 @@ Warning
 </ul>
 </div>
 </div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Both parents are heterozygous T/C</li>
+<li>The pattern does fit with Mendelian expectations: father T/C, mother T/C and son T/T suggest the son inherited a T from each parent</li>
+</ul>
+</div>
+</div>
+</div>
 <p>By clicking on the feature in the Common SNPs track we can see that this is a known SNP and gain additional information:</p>
 <p><img src="images/slide-39-image-1.png" class="img-fluid" alt="A zoomed in view showing the SNP stats revealed by clicking the position in the common snps track in IGV"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
@@ -489,6 +532,25 @@ Warning
 <li>What is the identifier (name) of the SNP at this position?</li>
 <li>What is the minor allele frequency (MAF)?</li>
 </ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>The SNP identifier is rs72890637</li>
+<li>The MAF is 0.023</li>
+</ul>
+</div>
 </div>
 </div>
 

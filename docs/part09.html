@@ -272,23 +272,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">HMG Sequencing Workshop</a> 
         <div class="sidebar-tools-main">
-    <div class="dropdown">
-      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./HMG-Sequencing-Workshop.pdf">
-              <i class="bi bi-file-pdf pe-1"></i>
-            Download PDF
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./HMG-Sequencing-Workshop.epub">
-              <i class="bi bi-journal pe-1"></i>
-            Download ePub
-            </a>
-          </li>
-      </ul>
-    </div>
+    <a href="./HMG-Sequencing-Workshop.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -420,14 +404,37 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </div>
 </div>
-<p>We can use the <strong>variant effect predictor (VEP)</strong> tool to gain some insight into potential functional effects of a given variant. Navigate to the VEP site: <a href="https://www.ensembl.org/tools/vep">https://www.ensembl.org/tools/vep</a></p>
-<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>The polymorphism at this site is C/T</li>
+<li>Yes, this is a non-synonymous mutation</li>
+<li>The codon and amino acid changes from TGC (Cys) to CGC (Arg)</li>
+<li>The genotypes are C/T for NA12877 (child), T/T for NA12889 (father) and C/T for NA12890 (mother)</li>
+<li>The MAF for the minor (alt) C-allele is 18%</li>
+<li>This mis-sense variant is protein altering. It is associated with predisposition to late onset Alzheimer disease (amongst other associations)</li>
+</ul>
+</div>
+</div>
+</div>
+<p>We can use the <strong>variant effect predictor (VEP)</strong> tool to gain some insight into potential functional effects of a given variant. Navigate to the VEP site: <a href="https://www.ensembl.org/tools/vep" target="_blank" rel="noopener noreferrer">https://www.ensembl.org/tools/vep</a></p>
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Tip
+Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -457,13 +464,14 @@ Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>REVEL (Rare Exome Variant Ensemble Learner)</strong> is a computational tool that predicts whether a missense variant is likely to be disease-causing by combining the results of multiple variant effect prediction algorithms into a single score between 0 and 1. Higher REVEL scores indicate a greater likelihood that the variant is pathogenic, while lower scores suggest it is more likely to be benign. Although there are no set thresholds, a general rule of thumb is:</p>
+<p><strong>REVEL (Rare Exome Variant Ensemble Learner)</strong> is a computational tool that predicts whether a <strong>missense</strong> variant is likely to be disease-causing by combining the results of multiple variant effect prediction algorithms into a single score between 0 and 1. Higher REVEL scores indicate a greater likelihood that the variant is pathogenic, while lower scores suggest it is more likely to be benign. Although there are no set thresholds, a general rule of thumb is:</p>
 <ul>
 <li>0.8+ : Pathogenic</li>
 <li>0.5-0.8 : Likely Pathogenic</li>
 <li>0.2-0.5 : Likely benign</li>
 <li>&lt;0.2 : Benign</li>
 </ul>
+<p>(Ioannidis NM, Rothstein JH, Pejaver V, et al.&nbsp;(2016) “REVEL: An Ensemble Method for Predicting the Pathogenicity of Rare Missense Variants.” <em>American Journal of Human Genetics</em> 99(4):877-885. <a href="https://www.sciencedirect.com/science/article/pii/S0002929716303706?via%3Dihub" target="_blank" rel="noopener noreferrer">DOI:10.1016/j.ajhg.2016.08.016</a>)</p>
 <p><strong>CADD (Combined Annotation Dependent Depletion)</strong> is a variant prioritisation score that integrates multiple genomic annotations to predict the deleteriousness of genetic variants. Higher CADD PHRED scores indicate a greater likelihood of functional impact, with scores above 20 typically considered potentially damaging.</p>
 <p>CADD scores are ranked so that a score of 10 places a variant among the top 10% most deleterious variants in the genome, while a score of 20 places it among the top 1%.</p>
 <p>Although there are no set thresholds for CADD, a general rule of thumb is:</p>
@@ -473,6 +481,7 @@ Tip
 <li>10-20 : Unlikely to be deleterious</li>
 <li>&lt;10 : Not deleterious</li>
 </ul>
+<p>(Rentzsch P, Witten D, Cooper GM, Shendure J, Kircher M. (2019) “CADD: predicting the deleteriousness of variants throughout the human genome.” <em>Nucleic Acids Research</em> 47(D1):D886-D894. <a href="https://academic.oup.com/nar/article/47/D1/D886/5146191" target="_blank" rel="noopener noreferrer">DOI:10.1093/nar/gky1016</a>)</p>
 </div>
 </div>
 <div class="quarto-figure quarto-figure-center">
@@ -500,7 +509,27 @@ Tip
 </ul>
 </div>
 </div>
-<p>There is another SNP a bit further downstream (rs7412).</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>This is a missense variant</li>
+<li>A REVEL score of 0.229 is low and would generally be interpreted as evidence that the variant is likely benign (not disease-causing).</li>
+<li>A CADD PHRED score of 13.75 suggests the variant is unlikely to be deleterious.These low scores are probably because the MAF is high (~15%) and isn’t likely to be associated with anything too serious - remembering that Alzheimer disease is very common, and very serious, but usually only affects people after their reproductive age</li>
+</ul>
+</div>
+</div>
+</div>
+<p>There is another SNP a bit further downstream (rs7412) we will examine next.</p>
 <p><img src="images/slide-58-image-1.png" class="img-fluid" alt="A zoomed in view showing the coloured positions in the different Platinum genomes for the rs7412 SNP in IGV"></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Test your understanding">
 <div class="callout-header d-flex align-content-center">
@@ -519,6 +548,27 @@ Tip
 <li>What are the genotypes at this SNP for NA12877, NA12889 and NA12890?</li>
 <li>Is this variant likely to be pathogenic? (check using VEP)</li>
 </ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>The polymorphism is C/T</li>
+<li>Yes, this is a non-synonymous mutation</li>
+<li>The codon and amino acid changes from CGC (Arg) to (TGC) Cys</li>
+<li>The variant has a higher REVEL score of 0.588 (use <code>19   45412079 45412079 C T</code> to search)</li>
+</ul>
+</div>
 </div>
 </div>
 

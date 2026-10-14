@@ -4,11 +4,5 @@
 - IGV web application: <https://smb-informatics.mvls.gla.ac.uk/igv>
 - University VPN: <https://www.gla.ac.uk/myglasgow/it/vpn/>
 - Ensembl: <https://www.ensembl.org/>
-- Ensembl GRCh37 VEP: <http://grch37.ensembl.org/Homo_sapiens/Tools/VEP>
+- Ensembl VEP: <https://www.ensembl.org/tools/vep>
 - gnomAD: <https://gnomad.broadinstitute.org/>
-
-::: callout-note
-## Teaching note
-
-The screenshots were extracted from the source PowerPoint and retained alongside the relevant instructions. Before reuse in a future session, check that the IGV, Ensembl, VEP and gnomAD interfaces still match the images.
-:::

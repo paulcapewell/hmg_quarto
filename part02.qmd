@@ -14,7 +14,7 @@ At this level we can start to see some detail regarding the distribution of know
 
 ![](images/slide-10-image-1.png){fig-alt="A figure showing how to move position in IGV"}
 
-We can zoom in further by either clicking and dragging on the scale  (A), using the zoom buttons (B) or typing in sequence coordinates (C).
+We can zoom in further by either clicking and dragging on the scale  (A), typing in sequence coordinates (B), or using the zoom buttons (C).
 
 ![](images/slide-11-image-1.png){fig-alt="How to move position in IGV"}
 
