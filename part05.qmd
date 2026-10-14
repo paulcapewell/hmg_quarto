@@ -23,6 +23,6 @@ We can speed up the display by removing tracks we no longer need (e.g. CpG, repe
 ![](images/slide-32-image-1.png){fig-alt="How to remove tracks in IGV"}
 
 ::: callout-warning
-Note that  sometimes IGV still slows down when you load the sequence data and you may need to refresh the page if it gets stuck. Unfortunately, you will then need to change the genome to hg19 again and reload the relevant tracks again.
+Sometimes IGV still slows down when you load the sequence data and you may need to refresh the page if it gets stuck. Unfortunately, you will then need to change the genome to hg19 again and reload the relevant tracks again.
 :::
 
