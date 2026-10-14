@@ -24,7 +24,7 @@ We can also add some known “variants” as a track from the dbSNP database (ve
 
 ![](images/slide-06-image-1.png){fig-alt="Adding the variant track to IGV"}
 
-Your window should now something look like this (you can use the grey handle on the right to drag the Refseq Gene annotation back to the top):
+Your window should now look something like this (you can use the grey handle on the right to drag the Refseq Gene annotation back to the top):
 
 ![](images/slide-07-image-1.png){fig-alt="How to move and edit tracks in IGV"}
 

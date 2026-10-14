@@ -31,7 +31,7 @@ To determine which variants have been inherited together on the same chromosome,
 
 ![](images/slide-47-image-1.png){fig-alt="Screenshot from slide 47 of the original IGV tutorial."}
 
-By using paired-reads, we can look at much longer sequence distances than the 100bp length of each individual read.
+By using paired reads, we can look at much longer sequence distances than the 100 bp length of each individual read.
 
 ![](images/pairedexample.png){fig-alt="images/pairedexample.png" width=50% style="border:none;"}
 

@@ -1,6 +1,6 @@
 # Case Study: Alzheimer’s disease
 
-A combination of genetic, environmental, and lifestyle factors contribute to late onset Alzheimer’s disease (late-onset AD, LOAD), with genetic factors contributing approximately 60%. Variation at the *APOE* gene locus plays a contributory genetic role. *APOE* encodes a very low-density lipoprotein that helps remove cholesterol from the bloodstream. The exact functional role of the protein encoded by *APOE* in LOAD remains unclear
+Genetic, environmental and lifestyle factors contribute to late onset Alzheimer’s disease (late-onset AD, LOAD), with genetic factors contributing approximately 60%. Variation at the *APOE* gene locus plays a contributory genetic role. *APOE* encodes a very low-density lipoprotein that helps remove cholesterol from the bloodstream. The exact functional role of the protein encoded by *APOE* in LOAD remains unclear.
 
 The major *APOE* risk for LOAD is generally assumed to derive from the e2/e3/e4 haplotype system, with the e4 allele increasing risk for the disorder and the e2 allele being protective. The e2/e3/e4 haplotype system is defined by the two non-synonymous SNPs in *APOE* exon 4 that we just examined. One is a C/T SNP (rs429358) that encodes either cysteine (C) or arginine (R) at amino acid 130. The second site defining this haplotype system is a C/T SNP (rs7412), which again encodes arginine (R) or cysteine (C) at amino acid 176
 
@@ -26,12 +26,12 @@ C–C for ε4
 :::
 
 ::: {.callout-tip collapse="true" title="Answer"}
-The haplotypes and relaitve LOAD risk are:
+The haplotypes and relative LOAD risk are:
 
-- NA12877: T–C APOE ε2 possibly protective, T–T APOE ε3 neutral
-- NA12889: T–C APOE ε2 possibly protective, T–C APOE ε2 possibly protective
-- NA12890: T–C APOE ε2 possibly protective, T–T APOE ε3 neutral
+- NA12877: T–T APOE ε2 possibly protective, T–C APOE ε3 neutral
+- NA12889: T–T APOE ε2 possibly protective, T–T APOE ε2 possibly protective
+- NA12890: T–T APOE ε2 possibly protective, T–C APOE ε3 neutral
 
-The C-T haplotype may not be observed as the two variants are very close and the probability of a recombination event generating the fourth recombinant haplotype is very low
+The C-T haplotype may not be observed, as the two variants are very close and the probability of a recombination event generating the fourth recombinant haplotype is very low
 
 :::

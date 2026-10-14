@@ -4,7 +4,7 @@ Next, we will load some actual sequence data from the platinum genomes collectio
 
 ![](images/slide-28-image-1.png){fig-alt="How to load the Platinum genomes tracks in IGV"}
 
-SHift-click samples **NA12889**, **NA12890** and **NA12877** and press OK.
+Shift-click samples **NA12889**, **NA12890** and **NA12877** and press OK.
 
 ![](images/slide-29-image-1.png){fig-alt="Selecting the parent-child trio in the Platinum genomes"}
 
@@ -23,6 +23,6 @@ We can speed up the display by removing tracks we no longer need (e.g. CpG, repe
 ![](images/slide-32-image-1.png){fig-alt="How to remove tracks in IGV"}
 
 ::: callout-warning
-Note that  sometimes IGV still slow down when you load the sequence data and you may need to refresh the page if it gets stuck. Unfortunately, you will then need to change the genome to hg19 again and reload the relevant tracks again.
+Note that  sometimes IGV still slows down when you load the sequence data and you may need to refresh the page if it gets stuck. Unfortunately, you will then need to change the genome to hg19 again and reload the relevant tracks again.
 :::
 

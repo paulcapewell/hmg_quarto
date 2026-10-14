@@ -20,7 +20,7 @@ We can zoom in further by either clicking and dragging on the scale  (A), typing
 
 Try pressing the + zoom button **five** times:
 
-You should now start to see individual genes and CpG islands. Note how genes and inter-genic regions differ in size.
+You should now start to see individual genes and CpG islands. Note how genes and intergenic regions differ in size.
 
 ![](images/slide-12-image-1.png){fig-alt="A zoomed in view of chromosome 8 in IGV"}
 

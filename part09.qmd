@@ -14,7 +14,7 @@ Start with the variant at position chr19:45,411,941 (rs429358).
 
 ::: {.callout-tip title="Test your understanding"}
 - What is the nature of the polymorphism at the DNA level?
-- Does this variant change the amino acid sequence (You will have to turn translation and work out which is the reading frame by looking at Exon 1)?
+- Does this variant change the amino acid sequence? (You will have to turn on translation and work out which is the reading frame by looking at exon 1)?
 - If so, from what to what?
 - What are the genotypes at this SNP for NA12877, NA12889 and NA12890?
 - What is the minor (alt) allele and the MAF?
@@ -23,18 +23,18 @@ Start with the variant at position chr19:45,411,941 (rs429358).
 
 ::: {.callout-tip collapse="true" title="Answer"}
 - The polymorphism at this site is C/T
-- Yes, this is a non-synonymous mutation
+- Yes, this is a nonsynonymous mutation
 - The codon and amino acid changes from TGC (Cys) to CGC (Arg) 
 - The genotypes are C/T for NA12877 (child), T/T for NA12889 (father) and C/T for NA12890 (mother)
 - The MAF for the minor (alt) C-allele is 18%
-- This mis-sense variant is protein altering. It is associated with predisposition to late onset Alzheimer disease (amongst other associations)
+- This missense variant is protein altering. It is associated with predisposition to late onset Alzheimer's disease (amongst other associations)
 
 :::
 
 We can use the **variant effect predictor (VEP)** tool to gain some insight into potential functional effects of a given variant. Navigate to the VEP site: [https://www.ensembl.org/tools/vep](https://www.ensembl.org/tools/vep){target="_blank" rel="noopener noreferrer"}
 
 ::: callout-warning
-We will be using hg19/GRCh37 coordinates, so make sure you are have the right genome version selected.
+We will be using hg19/GRCh37 coordinates, so make sure you have the right genome version selected.
 
 ![](images/slide-53b-image-1.png){fig-alt="A screenshot demonstrating how to change genome in Ensembl VEP"}
 
@@ -56,7 +56,7 @@ Press “Add” when you’ve entered the details of the variant. Set the **subm
 
 ![](images/slide-54-image-1.png){fig-alt="A screenshot demonstrating how to format a search string in Ensembl VEP"}
 
-We can also add some additional analyses to the job by scrolling down to **Job Options**. For now Enable **REVEL** and **CADD** under **Variant impact predictions**. These will help us predict any effect that the variants might have.
+We can also add some additional analyses to the job by scrolling down to **Job Options**. For now, enable **REVEL** and **CADD** under **Variant impact predictions**. These will help us predict any effect that the variants might have.
 
 ::: callout-tip
 **REVEL (Rare Exome Variant Ensemble Learner)** is a computational tool that predicts whether a **missense** variant is likely to be disease-causing by combining the results of multiple variant effect prediction algorithms into a single score between 0 and 1. Higher REVEL scores indicate a greater likelihood that the variant is pathogenic, while lower scores suggest it is more likely to be benign. Although there are no set thresholds, a general rule of thumb is:
@@ -85,7 +85,7 @@ Although there are no set thresholds for CADD, a general rule of thumb is:
 
 ![Screenshot from the original tutorial (slide 56).](images/slide-56-image-1.png){fig-alt="A screenshot demonstrating how to add REVEL and CADD information to a search in Ensembl VEP"}
 
-Press “Run” when you’re ready. Your job will take a few minutes. Press **Pesults** when it has finished.
+Press “Run” when you’re ready. Your job will take a few minutes. Press **Results** when it has finished.
 
 ![](images/slide-57-image-1.png){fig-alt="A screenshot demonstrating how to get to the results of a search in Ensembl VE"}
 
@@ -100,7 +100,7 @@ Press “Run” when you’re ready. Your job will take a few minutes. Press **P
 ::: {.callout-tip collapse="true" title="Answer"}
 - This is a missense variant
 - A REVEL score of 0.229 is low and would generally be interpreted as evidence that the variant is likely benign (not disease-causing). 
-- A CADD PHRED score of 13.75 suggests the variant is unlikely to be deleterious.These low scores are probably because the MAF is high (~15%) and isn’t likely to be associated with anything too serious - remembering that Alzheimer disease is very common, and very serious, but usually only affects people after their reproductive age 
+- A CADD PHRED score of 13.75 suggests the variant is unlikely to be deleterious. These low scores are probably because the MAF is high (~15%) and isn’t likely to be associated with anything too serious - remembering that Alzheimer disease is very common and very serious but usually only affects people after their reproductive age 
 
 :::
 
