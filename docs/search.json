@@ -64,7 +64,7 @@
     "href": "part03.html#examine-the-terminal-exon-and-3-utr",
     "title": "4: Interpret gene structure using TERF1",
     "section": "Examine the terminal exon and 3′ UTR",
-    "text": "Examine the terminal exon and 3′ UTR\nNavigate to the terminal TERF1 exon and zoom in:\n\n\n\n\n\n\n\nTipTest your understanding\n\n\n\n\nWhich is the correct reading frame for this exon in your view?\nWhat is the sequence of the stop codon?\n\n\n\n\n\n\n\n\n\nTipAnswer\n\n\n\n\n\n\nIt will depend on your IGV instance but in this image it is the bottom frame as the stop codon coincides with the end of the terminal exon.\nTGA\n\n\n\n\nZoom out to see the whole of the final exon.\n\n\n\n\n\n\n\nTipTest your understanding\n\n\n\n\nWhat is the approximate length of the 3’ UTR for TERF1?\n\n\n\n\n\n\n\n\n\nTipAnswer\n\n\n\n\n\nThe UTR spans 73,960,358 to 73,958,372 so is 1,986 bases (apporx. 2000 bp)",
+    "text": "Examine the terminal exon and 3′ UTR\nNavigate to the terminal TERF1 exon and zoom in:\n\n\n\n\n\n\n\nTipTest your understanding\n\n\n\n\nWhich is the correct reading frame for this exon in your view?\nWhat is the sequence of the stop codon?\n\n\n\n\n\n\n\n\n\nTipAnswer\n\n\n\n\n\n\nIt will depend on your IGV instance but in this image it is the bottom frame as the stop codon coincides with the end of the terminal exon.\nTGA\n\n\n\n\nZoom out to see the whole of the final exon.\n\n\n\n\n\n\n\nTipTest your understanding\n\n\n\n\nWhat is the approximate length of the 3’ UTR for TERF1?\n\n\n\n\n\n\n\n\n\nTipAnswer\n\n\n\n\n\nThe UTR spans 73,960,358 to 73,958,372 so is 1,986 bases (approx. 2000 bp)",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>4: Interpret gene structure using *TERF1*</span>"
     ]
