@@ -102,7 +102,7 @@ Press “Run” when you’re ready. Your job will take a few minutes. Press **R
 - A REVEL score of 0.229 is low and would generally be interpreted as evidence that the variant is likely benign (not disease-causing). 
 - A CADD PHRED score of 13.75 suggests the variant is unlikely to be deleterious. 
 
-These low scores may partly reflect the high allele frequency of approximately 15%. The variant is unlikely to be associated with a highly penetrant, early-onset condition. However, Alzheimer’s disease is common and usually develops after reproductive age
+These low scores may partly reflect the high allele frequency of approximately 15%. The variant is unlikely to be associated with a highly penetrant, early-onset condition. However, Alzheimer’s disease is common and usually develops after reproductive age.
 :::
 
 There is another SNP a bit further downstream (rs7412) we will examine next. 

@@ -4,7 +4,7 @@ Let’s look at the *DMPK* gene. This gene is different from *TERF1* as it is tr
 
 ![](images/slide-25-image-1.png){fig-alt="How to move to a position by name in IGV"}
 
-Zoom in on one of the DMPK coding exons. To see the correct amino acid sequence for this gene, we will have to set the ‘reverse’ option so that IGV translates from the bottom strand - remember that it will still be running right to left.
+Zoom in on one of the DMPK coding exons. To see the correct amino acid sequence for this gene, we will have to set the ‘reverse’ option so that IGV translates from the bottom strand. Remember that it will still be running right to left.
 
 ::: callout-warning
 Don’t forget to turn this option off again if you look at a gene or variants on the reference (top) strand.

@@ -93,7 +93,7 @@ How would you interpret these data in terms of providing a diagnosis and future 
   </tr>
 </table>
 
-The data strongly support a diagnosis of Zellweger syndrome in the affected child, who is compound heterozygous for two predicted high-impact PEX3 variants, one frameshift and one premature stop variant, neither of which has been observed in gnomAD. Although the impact of the 143784092 variant is predicted as moderate, this allele is relatively frequent (~2% and 17% in Latinos), and at least 600 homozygotes have been observed, so it is unlikely to be a disease allele. The 143800237 variant is novel, but synonymous, so it is again unlikely to be pathogenic. Thus, each parent carries a different candidate pathogenic allele. The recurrence risk is 25% for each pregnancy, assuming the variants are confirmed to be in trans and causative.
+The data strongly support a diagnosis of Zellweger syndrome in the affected child, who is compound heterozygous for two predicted high-impact PEX3 variants, one frameshift and one premature stop variant, neither of which has been observed in gnomAD. Although the impact of the 143784092 variant is predicted as moderate, this allele is relatively frequent (~2% globally and 17% in the Latino/admixed American population), and at least 600 homozygotes have been observed, so it is unlikely to be a disease allele. The 143800237 variant is novel, but synonymous, so it is again unlikely to be pathogenic. Thus, each parent carries a different candidate pathogenic allele. The recurrence risk is 25% for each pregnancy, assuming the variants are confirmed to be in trans and causative.
 
 
 :::
