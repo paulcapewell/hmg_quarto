@@ -43,7 +43,7 @@ Add the ENCODE H3K4me3 track and select the ‘GM12878 H3K4me3 | Raw Signal | Bi
 :::
 
 ::: {.callout-tip collapse="true" title="Answer"}
-- Yes, CpG island 67 spans a promoter region in exon 1 and associates with H3K4me3 ChIP-seq data (typically found at TSSs and in open chromatin.)
+- Yes, CpG island 67 spans a promoter region in exon 1 and associates with H3K4me3 ChIP-seq data (typically found at TSSs and in open chromatin).
 - The correct frame starts with an ATG and has no STOP codons within exon 1. It will depend on your particular instance of IGV.
 - The first repeated element is a MIRb element and there are some additional Alu, LINE and MIR elements, and simple sequence repeats, further down. Note that ~80% of intron 1 sequence is some sort of repeat.
 :::
@@ -53,7 +53,7 @@ Add the ENCODE H3K4me3 track and select the ‘GM12878 H3K4me3 | Raw Signal | Bi
 Splice junctions mark the boundaries between exons and introns and are critical for the accurate removal of intronic sequence during RNA splicing. Adjust the view to examine the end of the first exon.
 
 ::: callout-warning
-Be careful - the vertical order of the reading frames sometimes jumps about as you zoom in and out
+Be careful - the vertical order of the reading frames sometimes jumps about as you zoom in and out.
 :::
 
 
@@ -126,5 +126,5 @@ Zoom out to see the whole of the final exon.
 :::
 
 ::: {.callout-tip collapse="true" title="Answer"}
-The UTR spans 73,960,358 to 73,958,372 so is 1,986 bases (approx. 2000 bp)
+The UTR spans 73,960,358 to 73,958,372 so is 1,986 bases (approx. 2,000 bp)
 :::

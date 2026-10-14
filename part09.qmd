@@ -14,7 +14,7 @@ Start with the variant at position chr19:45,411,941 (rs429358).
 
 ::: {.callout-tip title="Test your understanding"}
 - What is the nature of the polymorphism at the DNA level?
-- Does this variant change the amino acid sequence? (You will have to turn on translation and work out which is the reading frame by looking at exon 1)?
+- Does this variant change the amino acid sequence? (You will have to turn on translation and work out which is the reading frame by looking at exon 1)
 - If so, from what to what?
 - What are the genotypes at this SNP for NA12877, NA12889 and NA12890?
 - What is the minor (alt) allele and the MAF?
@@ -27,7 +27,7 @@ Start with the variant at position chr19:45,411,941 (rs429358).
 - The codon and amino acid changes from TGC (Cys) to CGC (Arg) 
 - The genotypes are C/T for NA12877 (child), T/T for NA12889 (father) and C/T for NA12890 (mother)
 - The MAF for the minor (alt) C-allele is 18%
-- This missense variant is protein altering. It is associated with predisposition to late onset Alzheimer's disease (amongst other associations)
+- This missense variant is protein altering. It is associated with predisposition to late-onset Alzheimer's disease (amongst other associations)
 
 :::
 
@@ -100,8 +100,9 @@ Press “Run” when you’re ready. Your job will take a few minutes. Press **R
 ::: {.callout-tip collapse="true" title="Answer"}
 - This is a missense variant
 - A REVEL score of 0.229 is low and would generally be interpreted as evidence that the variant is likely benign (not disease-causing). 
-- A CADD PHRED score of 13.75 suggests the variant is unlikely to be deleterious. These low scores are probably because the MAF is high (~15%) and isn’t likely to be associated with anything too serious - remembering that Alzheimer disease is very common and very serious but usually only affects people after their reproductive age 
+- A CADD PHRED score of 13.75 suggests the variant is unlikely to be deleterious. 
 
+These low scores may partly reflect the high allele frequency of approximately 15%. The variant is unlikely to be associated with a highly penetrant, early-onset condition. However, Alzheimer’s disease is common and usually develops after reproductive age
 :::
 
 There is another SNP a bit further downstream (rs7412) we will examine next. 
@@ -118,7 +119,7 @@ There is another SNP a bit further downstream (rs7412) we will examine next.
 
 ::: {.callout-tip collapse="true" title="Answer"}
 - The polymorphism is C/T
-- Yes, this is a non-synonymous mutation
+- Yes, this is a nonsynonymous mutation
 - The codon and amino acid changes from CGC (Arg) to (TGC) Cys
 - The variant has a higher REVEL score of 0.588 (use `19   45412079 45412079 C T` to search)
 

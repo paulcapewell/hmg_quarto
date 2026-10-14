@@ -1,8 +1,8 @@
 # Case Study: Alzheimer’s disease
 
-Genetic, environmental and lifestyle factors contribute to late onset Alzheimer’s disease (late-onset AD, LOAD), with genetic factors contributing approximately 60%. Variation at the *APOE* gene locus plays a contributory genetic role. *APOE* encodes a very low-density lipoprotein that helps remove cholesterol from the bloodstream. The exact functional role of the protein encoded by *APOE* in LOAD remains unclear.
+Genetic, environmental and lifestyle factors contribute to late-onset Alzheimer’s disease (late-onset AD, LOAD), with genetic factors contributing approximately 60%. Variation at the *APOE* gene locus plays a contributory genetic role. *APOE* encodes a very low-density lipoprotein that helps remove cholesterol from the bloodstream. The exact functional role of the protein encoded by *APOE* in LOAD remains unclear.
 
-The major *APOE* risk for LOAD is generally assumed to derive from the e2/e3/e4 haplotype system, with the e4 allele increasing risk for the disorder and the e2 allele being protective. The e2/e3/e4 haplotype system is defined by the two non-synonymous SNPs in *APOE* exon 4 that we just examined. One is a C/T SNP (rs429358) that encodes either cysteine (C) or arginine (R) at amino acid 130. The second site defining this haplotype system is a C/T SNP (rs7412), which again encodes arginine (R) or cysteine (C) at amino acid 176
+The major *APOE* risk for LOAD is generally assumed to derive from the e2/e3/e4 haplotype system, with the e4 allele increasing risk for the disorder and the e2 allele being protective. The e2/e3/e4 haplotype system is defined by the two non-synonymous SNPs in *APOE* exon 4 that we just examined. One is a C/T SNP (rs429358) that encodes either cysteine (C) or arginine (R) at amino acid 130. The second site defining this haplotype system is a C/T SNP (rs7412), which again encodes arginine (R) or cysteine (C) at amino acid 176.
 
 The allelic compositions of the commonly investigated rs429358/rs7412 haplotypes are:
 
@@ -14,9 +14,9 @@ C–C for ε4
 
 |              | rs429358 | rs7412 | Frequency and Prognosis     |
 |--------------|----------|--------|-----------------------------|
-| APOE e2      | T        | T      | Rare, possibly protective   |
-| APOE e3      | T        | C      | Common, neutral             |
-| APOE e4      | C        | C      | 20% frequency, risk variant |
+| APOE ε2      | T        | T      | Rare, possibly protective   |
+| APOE ε3      | T        | C      | Common, neutral             |
+| APOE ε4      | C        | C      | 20% frequency, risk variant |
 | Not observed | C        | T      |                             |
 
 

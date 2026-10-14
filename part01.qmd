@@ -16,7 +16,7 @@ In order to interpret the sequence data, we are going to add some additional “
 
 ![](images/slide-04-image-1.png){fig-alt="How to add annotations to IGV"}
 
-Use Shift+Click to select the Repeat Masker and CpG Islands annotation tracks (in addition to the Refs Genes track which is a default track):
+Use Shift+Click to select the Repeat Masker and CpG Islands annotation tracks (in addition to the Refseq Genes track which is a default track):
 
 ![](images/slide-05-image-1.png){fig-alt="Selecting specific annotations in IGV"}
 

@@ -14,7 +14,7 @@ Don’t forget to turn this option off again if you look at a gene or variants o
 
 Zoom out a bit more to get an overview of the other genes in the vicinity of *DMPK*. Some genes are in the same orientation as DMPK and transcribed from the bottom strand (e.g. *SIX5*, *DMWD*, *RSPH6A*) but others are transcribed from the top strand (e.g. *BHMG1*).
 
-You should also see that many genes have a CpG island spanning exon 1. These regions are often (but not always) associated with the presence of H3K4me3 in ChIPseq data, indicating open chromatin.
+You should also see that many genes have a CpG island spanning exon 1. These regions are often (but not always) associated with the presence of H3K4me3 in ChIP-seq data, indicating open chromatin.
 
 ![](images/slide-27-image-1.png){fig-alt="A wider view of the DMPK region in IGV showing CpG islands near the beginning of most genes"}
 

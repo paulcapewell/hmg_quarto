@@ -10,7 +10,7 @@ Shift-click samples **NA12889**, **NA12890** and **NA12877** and press OK.
 
 The platinum genomes are derived from a reference genome dataset described in [Eberle *et al., 2017*](https://genome.cshlp.org/content/27/1/157){target="_blank" rel="noopener noreferrer"}. In the study, the genomes of four grandparents, two parents and 11 children were sequenced on an Illumina HiSeq2000 to an average depth of 50× using 2×100 bp paired-end reads.
 
-The ID of each sample is defined by adding the family identifier prefix (e.g. NA128) to each numbered individual (e.g. 77 would be NA12877). For this session, we will load in a mother-father-child trio  (individuals 89, 90 and 77) from family NA128.
+The ID of each sample is defined by adding the family identifier prefix (e.g. NA128) to each numbered individual (e.g. 77 would be NA12877). For this session, we will load in a mother-father-child family trio (individuals 89, 90 and 77) from family NA128.
 
 ![](images/slide-30-image-1.png){fig-alt="Overiview of the Platinum genomes pedigree" style="border:none;"}
 
