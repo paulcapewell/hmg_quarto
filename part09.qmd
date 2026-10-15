@@ -121,6 +121,6 @@ There is another SNP a bit further downstream (rs7412) we will examine next.
 - The polymorphism is C/T
 - Yes, this is a nonsynonymous mutation
 - The codon and amino acid changes from CGC (Arg) to (TGC) Cys
-- The variant has a higher REVEL score of 0.588 (use `19   45412079 45412079 C T` to search)
+- The variant has a REVEL score of 0.588 and a CADD PHRED score of 25.8. This suggests it is more likely than the last variant to be pathogenic and potentially deleterious (use `19   45412079 45412079 C T` to search)
 
 :::
