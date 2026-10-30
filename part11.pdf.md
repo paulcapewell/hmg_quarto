@@ -1,0 +1,56 @@
+# Case Study: Zellweger syndrome
+
+A family is referred to clinical genetics with a severely ill newborn child who has received a clinical diagnosis of probable Zellweger syndrome. This is an autosomal recessive systemic disorder characterised clinically by severe neurologic dysfunction, craniofacial abnormalities, and liver dysfunction, and biochemically by the absence of peroxisomes. Zellweger syndrome is characterised by locus heterogeneity and can be caused by mutations in any one of several genes, encoding proteins known as pexins, which are involved in peroxisome biogenesis. In order to try and provide a genetic diagnosis, whole exome sequencing was performed in the family and variants in a known Zellweger gene, *PEX3*, detected:
+
+| Gene   | Position (GRCh37/hg19) | Mother | Father | Affected child |
+|:-------|:-----------------------|:------:|:------:|:--------------:|
+| *PEX3* | 6:143784092            | A/A    | A/G    | A/A            |
+| *PEX3* | 6:143792714            | G/TG   | G/G    | G/TG           |
+| *PEX3* | 6:143795928            | T/T    | T/A    | T/A            |
+| *PEX3* | 6:143800237            | T/C    | T/T    | T/T            |
+
+::: {.callout-tip title="Test your understanding"}
+- How would you format a VEP query for each variant?
+- What are the predicted effects of these variants?
+:::
+
+::: {.callout-tip collapse="true" title="Answer"}
+The VEP search strings and likely effects would be:
+
+- `6 143784092 143784092 A G` - missense (Q/R), likely benign
+- `6 143792714 143792714 G TG` - frameshift, likely deleterious
+- `6 143795928 143795928 T A` - stop-gained variant, predicted to be deleterious
+- `6 143800237 143800237 T C` - benign
+
+:::
+
+
+You can investigate the variants further in [gnomAD](https://gnomad.broadinstitute.org){target="_blank" rel="noopener noreferrer"}. Make sure to use the gnomAD version 2.1.1 so that GRCh37/hg19 is used and matches the genome coordinates you have been using in IGV. Complete the following table:
+
+::: {.callout-tip title="Test your understanding"}
+Complete the table:
+
+| Gene  | Position    | Genotype | Observed          | Global allele frequency | Number of homozygotes |
+|:------|:------------|:--------:|:------------------|:-----------------------:|----------------------:|
+| *PEX3* | 6:143784092 |          |                   |                         |                       |
+| *PEX3* | 6:143792714 |          |                   |                         |                       |
+| *PEX3* | 6:143795928 |          |                   |                         |                       |
+| *PEX3* | 6:143800237 |          |                   |                         |                       |
+
+How would you interpret these data in terms of providing a diagnosis and future risk assessment to the family? (In answering this question, remember that the impact of a variant on the gene product may or may not correlate with the effect size in terms of downstream phenotype. You’ll therefore need to use all the evidence available to you to predict whether variants you are seeing in the data might be causative of Zellweger syndrome or not) 
+
+:::
+
+::: {.callout-tip collapse="true" title="Answer"}
+
+| Gene  | Position    | Genotype | Observed          | Global allele frequency | Number of homozygotes |
+|:------|:------------|:--------:|:------------------|:-----------------------:|----------------------:|
+| *PEX3* | 6:143784092 | A/G      | yes (rs35220041) | 0.02818                 | 615                   |
+| *PEX3* | 6:143792714 | G/TG     | no                | N/A (<1/~282,000)       | 0                     |
+| *PEX3* | 6:143795928 | T/A      | no                | N/A (<1/~251,000)       | 0                     |
+| *PEX3* | 6:143800237 | T/C      | no                | N/A (<1/~251,000)       | 0                     |
+
+The data strongly support a diagnosis of Zellweger syndrome in the affected child, who is compound heterozygous for two predicted high-impact PEX3 variants, one frameshift and one premature stop variant, neither of which has been observed in gnomAD. Although the impact of the 143784092 variant is predicted as moderate, this allele is relatively frequent (~2% globally and 17% in the Latino/admixed American population), and at least 600 homozygotes have been observed, so it is unlikely to be a disease allele. The 143800237 variant is novel, but synonymous, so it is again unlikely to be pathogenic. Thus, each parent carries a different candidate pathogenic allele. The recurrence risk is 25% for each pregnancy, assuming the variants are confirmed to be in trans and causative.
+
+
+:::
